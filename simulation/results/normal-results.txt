@@ -1,0 +1,1867 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: ../iac/normal-load.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 20 max VUs, 10m30s max duration (incl. graceful stop):
+              * normal_trading: 20 looping VUs for 10m0s (gracefulStop: 30s)
+
+time="2026-11-26T22:06:46+08:00" level=warning msg="Request Failed" error="Get \"http://127.0.0.1:8080/api/catalogue?page=1\": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it."
+time="2026-11-26T22:06:46+08:00" level=warning msg="Request Failed" error="Get \"http://127.0.0.1:8080/api/catalogue?page=1\": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it."
+time="2026-11-26T22:06:46+08:00" level=warning msg="Request Failed" error="Get \"http://127.0.0.1:8080/api/catalogue?page=1\": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it."
+time="2026-11-26T22:06:46+08:00" level=warning msg="Request Failed" error="Get \"http://127.0.0.1:8080/api/catalogue?page=1\": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it."
+
+running (00m01.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+normal_trading   [   0% ] 20 VUs  00m01.0s/10m0s
+
+running (00m02.0s), 20/20 VUs, 20 complete and 0 interrupted iterations
+normal_trading   [   0% ] 20 VUs  00m02.0s/10m0s
+
+running (00m03.0s), 20/20 VUs, 40 complete and 0 interrupted iterations
+normal_trading   [   0% ] 20 VUs  00m03.0s/10m0s
+
+running (00m04.0s), 20/20 VUs, 60 complete and 0 interrupted iterations
+normal_trading   [   1% ] 20 VUs  00m04.0s/10m0s
+
+running (00m05.0s), 20/20 VUs, 80 complete and 0 interrupted iterations
+normal_trading   [   1% ] 20 VUs  00m05.0s/10m0s
+
+running (00m06.0s), 20/20 VUs, 100 complete and 0 interrupted iterations
+normal_trading   [   1% ] 20 VUs  00m06.0s/10m0s
+
+running (00m07.0s), 20/20 VUs, 120 complete and 0 interrupted iterations
+normal_trading   [   1% ] 20 VUs  00m07.0s/10m0s
+
+running (00m08.0s), 20/20 VUs, 140 complete and 0 interrupted iterations
+normal_trading   [   1% ] 20 VUs  00m08.0s/10m0s
+
+running (00m09.0s), 20/20 VUs, 160 complete and 0 interrupted iterations
+normal_trading   [   1% ] 20 VUs  00m09.0s/10m0s
+
+running (00m10.0s), 20/20 VUs, 180 complete and 0 interrupted iterations
+normal_trading   [   2% ] 20 VUs  00m10.0s/10m0s
+
+running (00m11.0s), 20/20 VUs, 200 complete and 0 interrupted iterations
+normal_trading   [   2% ] 20 VUs  00m11.0s/10m0s
+
+running (00m12.0s), 20/20 VUs, 220 complete and 0 interrupted iterations
+normal_trading   [   2% ] 20 VUs  00m12.0s/10m0s
+
+running (00m13.0s), 20/20 VUs, 240 complete and 0 interrupted iterations
+normal_trading   [   2% ] 20 VUs  00m13.0s/10m0s
+
+running (00m14.0s), 20/20 VUs, 240 complete and 0 interrupted iterations
+normal_trading   [   2% ] 20 VUs  00m14.0s/10m0s
+
+running (00m15.0s), 20/20 VUs, 260 complete and 0 interrupted iterations
+normal_trading   [   2% ] 20 VUs  00m15.0s/10m0s
+
+running (00m16.0s), 20/20 VUs, 280 complete and 0 interrupted iterations
+normal_trading   [   3% ] 20 VUs  00m16.0s/10m0s
+
+running (00m17.0s), 20/20 VUs, 300 complete and 0 interrupted iterations
+normal_trading   [   3% ] 20 VUs  00m17.0s/10m0s
+
+running (00m18.0s), 20/20 VUs, 320 complete and 0 interrupted iterations
+normal_trading   [   3% ] 20 VUs  00m18.0s/10m0s
+
+running (00m19.0s), 20/20 VUs, 340 complete and 0 interrupted iterations
+normal_trading   [   3% ] 20 VUs  00m19.0s/10m0s
+
+running (00m20.0s), 20/20 VUs, 360 complete and 0 interrupted iterations
+normal_trading   [   3% ] 20 VUs  00m20.0s/10m0s
+
+running (00m21.0s), 20/20 VUs, 380 complete and 0 interrupted iterations
+normal_trading   [   3% ] 20 VUs  00m21.0s/10m0s
+
+running (00m22.0s), 20/20 VUs, 400 complete and 0 interrupted iterations
+normal_trading   [   4% ] 20 VUs  00m22.0s/10m0s
+
+running (00m23.0s), 20/20 VUs, 420 complete and 0 interrupted iterations
+normal_trading   [   4% ] 20 VUs  00m23.0s/10m0s
+
+running (00m24.0s), 20/20 VUs, 440 complete and 0 interrupted iterations
+normal_trading   [   4% ] 20 VUs  00m24.0s/10m0s
+
+running (00m25.0s), 20/20 VUs, 460 complete and 0 interrupted iterations
+normal_trading   [   4% ] 20 VUs  00m25.0s/10m0s
+
+running (00m26.0s), 20/20 VUs, 480 complete and 0 interrupted iterations
+normal_trading   [   4% ] 20 VUs  00m26.0s/10m0s
+
+running (00m27.0s), 20/20 VUs, 500 complete and 0 interrupted iterations
+normal_trading   [   4% ] 20 VUs  00m27.0s/10m0s
+
+running (00m28.0s), 20/20 VUs, 500 complete and 0 interrupted iterations
+normal_trading   [   5% ] 20 VUs  00m28.0s/10m0s
+
+running (00m29.0s), 20/20 VUs, 520 complete and 0 interrupted iterations
+normal_trading   [   5% ] 20 VUs  00m29.0s/10m0s
+
+running (00m30.0s), 20/20 VUs, 540 complete and 0 interrupted iterations
+normal_trading   [   5% ] 20 VUs  00m30.0s/10m0s
+
+running (00m31.0s), 20/20 VUs, 560 complete and 0 interrupted iterations
+normal_trading   [   5% ] 20 VUs  00m31.0s/10m0s
+
+running (00m32.0s), 20/20 VUs, 580 complete and 0 interrupted iterations
+normal_trading   [   5% ] 20 VUs  00m32.0s/10m0s
+
+running (00m33.0s), 20/20 VUs, 600 complete and 0 interrupted iterations
+normal_trading   [   5% ] 20 VUs  00m33.0s/10m0s
+
+running (00m34.0s), 20/20 VUs, 620 complete and 0 interrupted iterations
+normal_trading   [   6% ] 20 VUs  00m34.0s/10m0s
+
+running (00m35.0s), 20/20 VUs, 640 complete and 0 interrupted iterations
+normal_trading   [   6% ] 20 VUs  00m35.0s/10m0s
+
+running (00m36.0s), 20/20 VUs, 660 complete and 0 interrupted iterations
+normal_trading   [   6% ] 20 VUs  00m36.0s/10m0s
+
+running (00m37.0s), 20/20 VUs, 680 complete and 0 interrupted iterations
+normal_trading   [   6% ] 20 VUs  00m37.0s/10m0s
+
+running (00m38.0s), 20/20 VUs, 700 complete and 0 interrupted iterations
+normal_trading   [   6% ] 20 VUs  00m38.0s/10m0s
+
+running (00m39.0s), 20/20 VUs, 720 complete and 0 interrupted iterations
+normal_trading   [   6% ] 20 VUs  00m39.0s/10m0s
+
+running (00m40.0s), 20/20 VUs, 740 complete and 0 interrupted iterations
+normal_trading   [   7% ] 20 VUs  00m40.0s/10m0s
+
+running (00m41.0s), 20/20 VUs, 740 complete and 0 interrupted iterations
+normal_trading   [   7% ] 20 VUs  00m41.0s/10m0s
+
+running (00m42.0s), 20/20 VUs, 760 complete and 0 interrupted iterations
+normal_trading   [   7% ] 20 VUs  00m42.0s/10m0s
+
+running (00m43.0s), 20/20 VUs, 780 complete and 0 interrupted iterations
+normal_trading   [   7% ] 20 VUs  00m43.0s/10m0s
+
+running (00m44.0s), 20/20 VUs, 800 complete and 0 interrupted iterations
+normal_trading   [   7% ] 20 VUs  00m44.0s/10m0s
+
+running (00m45.0s), 20/20 VUs, 820 complete and 0 interrupted iterations
+normal_trading   [   7% ] 20 VUs  00m45.0s/10m0s
+
+running (00m46.0s), 20/20 VUs, 840 complete and 0 interrupted iterations
+normal_trading   [   8% ] 20 VUs  00m46.0s/10m0s
+
+running (00m47.0s), 20/20 VUs, 860 complete and 0 interrupted iterations
+normal_trading   [   8% ] 20 VUs  00m47.0s/10m0s
+
+running (00m48.0s), 20/20 VUs, 880 complete and 0 interrupted iterations
+normal_trading   [   8% ] 20 VUs  00m48.0s/10m0s
+
+running (00m49.0s), 20/20 VUs, 900 complete and 0 interrupted iterations
+normal_trading   [   8% ] 20 VUs  00m49.0s/10m0s
+
+running (00m50.0s), 20/20 VUs, 920 complete and 0 interrupted iterations
+normal_trading   [   8% ] 20 VUs  00m50.0s/10m0s
+
+running (00m51.0s), 20/20 VUs, 940 complete and 0 interrupted iterations
+normal_trading   [   8% ] 20 VUs  00m51.0s/10m0s
+
+running (00m52.0s), 20/20 VUs, 960 complete and 0 interrupted iterations
+normal_trading   [   9% ] 20 VUs  00m52.0s/10m0s
+
+running (00m53.0s), 20/20 VUs, 980 complete and 0 interrupted iterations
+normal_trading   [   9% ] 20 VUs  00m53.0s/10m0s
+
+running (00m54.0s), 20/20 VUs, 1000 complete and 0 interrupted iterations
+normal_trading   [   9% ] 20 VUs  00m54.0s/10m0s
+
+running (00m55.0s), 20/20 VUs, 1000 complete and 0 interrupted iterations
+normal_trading   [   9% ] 20 VUs  00m55.0s/10m0s
+
+running (00m56.0s), 20/20 VUs, 1020 complete and 0 interrupted iterations
+normal_trading   [   9% ] 20 VUs  00m56.0s/10m0s
+
+running (00m57.0s), 20/20 VUs, 1040 complete and 0 interrupted iterations
+normal_trading   [   9% ] 20 VUs  00m57.0s/10m0s
+
+running (00m58.0s), 20/20 VUs, 1060 complete and 0 interrupted iterations
+normal_trading   [  10% ] 20 VUs  00m58.0s/10m0s
+
+running (00m59.0s), 20/20 VUs, 1080 complete and 0 interrupted iterations
+normal_trading   [  10% ] 20 VUs  00m59.0s/10m0s
+
+running (01m00.0s), 20/20 VUs, 1100 complete and 0 interrupted iterations
+normal_trading   [  10% ] 20 VUs  01m00.0s/10m0s
+
+running (01m01.0s), 20/20 VUs, 1120 complete and 0 interrupted iterations
+normal_trading   [  10% ] 20 VUs  01m01.0s/10m0s
+
+running (01m02.0s), 20/20 VUs, 1140 complete and 0 interrupted iterations
+normal_trading   [  10% ] 20 VUs  01m02.0s/10m0s
+
+running (01m03.0s), 20/20 VUs, 1160 complete and 0 interrupted iterations
+normal_trading   [  10% ] 20 VUs  01m03.0s/10m0s
+
+running (01m04.0s), 20/20 VUs, 1180 complete and 0 interrupted iterations
+normal_trading   [  11% ] 20 VUs  01m04.0s/10m0s
+
+running (01m05.0s), 20/20 VUs, 1200 complete and 0 interrupted iterations
+normal_trading   [  11% ] 20 VUs  01m05.0s/10m0s
+
+running (01m06.0s), 20/20 VUs, 1220 complete and 0 interrupted iterations
+normal_trading   [  11% ] 20 VUs  01m06.0s/10m0s
+
+running (01m07.0s), 20/20 VUs, 1240 complete and 0 interrupted iterations
+normal_trading   [  11% ] 20 VUs  01m07.0s/10m0s
+
+running (01m08.0s), 20/20 VUs, 1260 complete and 0 interrupted iterations
+normal_trading   [  11% ] 20 VUs  01m08.0s/10m0s
+
+running (01m09.0s), 20/20 VUs, 1260 complete and 0 interrupted iterations
+normal_trading   [  11% ] 20 VUs  01m09.0s/10m0s
+
+running (01m10.0s), 20/20 VUs, 1280 complete and 0 interrupted iterations
+normal_trading   [  12% ] 20 VUs  01m10.0s/10m0s
+
+running (01m11.0s), 20/20 VUs, 1300 complete and 0 interrupted iterations
+normal_trading   [  12% ] 20 VUs  01m11.0s/10m0s
+
+running (01m12.0s), 20/20 VUs, 1320 complete and 0 interrupted iterations
+normal_trading   [  12% ] 20 VUs  01m12.0s/10m0s
+
+running (01m13.0s), 20/20 VUs, 1340 complete and 0 interrupted iterations
+normal_trading   [  12% ] 20 VUs  01m13.0s/10m0s
+
+running (01m14.0s), 20/20 VUs, 1360 complete and 0 interrupted iterations
+normal_trading   [  12% ] 20 VUs  01m14.0s/10m0s
+
+running (01m15.0s), 20/20 VUs, 1380 complete and 0 interrupted iterations
+normal_trading   [  12% ] 20 VUs  01m15.0s/10m0s
+
+running (01m16.0s), 20/20 VUs, 1400 complete and 0 interrupted iterations
+normal_trading   [  13% ] 20 VUs  01m16.0s/10m0s
+
+running (01m17.0s), 20/20 VUs, 1420 complete and 0 interrupted iterations
+normal_trading   [  13% ] 20 VUs  01m17.0s/10m0s
+
+running (01m18.0s), 20/20 VUs, 1440 complete and 0 interrupted iterations
+normal_trading   [  13% ] 20 VUs  01m18.0s/10m0s
+
+running (01m19.0s), 20/20 VUs, 1460 complete and 0 interrupted iterations
+normal_trading   [  13% ] 20 VUs  01m19.0s/10m0s
+
+running (01m20.0s), 20/20 VUs, 1480 complete and 0 interrupted iterations
+normal_trading   [  13% ] 20 VUs  01m20.0s/10m0s
+
+running (01m21.0s), 20/20 VUs, 1500 complete and 0 interrupted iterations
+normal_trading   [  13% ] 20 VUs  01m21.0s/10m0s
+
+running (01m22.0s), 20/20 VUs, 1500 complete and 0 interrupted iterations
+normal_trading   [  14% ] 20 VUs  01m22.0s/10m0s
+
+running (01m23.0s), 20/20 VUs, 1520 complete and 0 interrupted iterations
+normal_trading   [  14% ] 20 VUs  01m23.0s/10m0s
+
+running (01m24.0s), 20/20 VUs, 1540 complete and 0 interrupted iterations
+normal_trading   [  14% ] 20 VUs  01m24.0s/10m0s
+
+running (01m25.0s), 20/20 VUs, 1560 complete and 0 interrupted iterations
+normal_trading   [  14% ] 20 VUs  01m25.0s/10m0s
+
+running (01m26.0s), 20/20 VUs, 1580 complete and 0 interrupted iterations
+normal_trading   [  14% ] 20 VUs  01m26.0s/10m0s
+
+running (01m27.0s), 20/20 VUs, 1600 complete and 0 interrupted iterations
+normal_trading   [  14% ] 20 VUs  01m27.0s/10m0s
+
+running (01m28.0s), 20/20 VUs, 1620 complete and 0 interrupted iterations
+normal_trading   [  15% ] 20 VUs  01m28.0s/10m0s
+
+running (01m29.0s), 20/20 VUs, 1640 complete and 0 interrupted iterations
+normal_trading   [  15% ] 20 VUs  01m29.0s/10m0s
+
+running (01m30.0s), 20/20 VUs, 1660 complete and 0 interrupted iterations
+normal_trading   [  15% ] 20 VUs  01m30.0s/10m0s
+
+running (01m31.0s), 20/20 VUs, 1680 complete and 0 interrupted iterations
+normal_trading   [  15% ] 20 VUs  01m31.0s/10m0s
+
+running (01m32.0s), 20/20 VUs, 1700 complete and 0 interrupted iterations
+normal_trading   [  15% ] 20 VUs  01m32.0s/10m0s
+
+running (01m33.0s), 20/20 VUs, 1720 complete and 0 interrupted iterations
+normal_trading   [  15% ] 20 VUs  01m33.0s/10m0s
+
+running (01m34.0s), 20/20 VUs, 1740 complete and 0 interrupted iterations
+normal_trading   [  16% ] 20 VUs  01m34.0s/10m0s
+
+running (01m35.0s), 20/20 VUs, 1760 complete and 0 interrupted iterations
+normal_trading   [  16% ] 20 VUs  01m35.0s/10m0s
+
+running (01m36.0s), 20/20 VUs, 1760 complete and 0 interrupted iterations
+normal_trading   [  16% ] 20 VUs  01m36.0s/10m0s
+
+running (01m37.0s), 20/20 VUs, 1780 complete and 0 interrupted iterations
+normal_trading   [  16% ] 20 VUs  01m37.0s/10m0s
+
+running (01m38.0s), 20/20 VUs, 1800 complete and 0 interrupted iterations
+normal_trading   [  16% ] 20 VUs  01m38.0s/10m0s
+
+running (01m39.0s), 20/20 VUs, 1820 complete and 0 interrupted iterations
+normal_trading   [  16% ] 20 VUs  01m39.0s/10m0s
+
+running (01m40.0s), 20/20 VUs, 1840 complete and 0 interrupted iterations
+normal_trading   [  17% ] 20 VUs  01m40.0s/10m0s
+
+running (01m41.0s), 20/20 VUs, 1860 complete and 0 interrupted iterations
+normal_trading   [  17% ] 20 VUs  01m41.0s/10m0s
+
+running (01m42.0s), 20/20 VUs, 1880 complete and 0 interrupted iterations
+normal_trading   [  17% ] 20 VUs  01m42.0s/10m0s
+
+running (01m43.0s), 20/20 VUs, 1900 complete and 0 interrupted iterations
+normal_trading   [  17% ] 20 VUs  01m43.0s/10m0s
+
+running (01m44.0s), 20/20 VUs, 1920 complete and 0 interrupted iterations
+normal_trading   [  17% ] 20 VUs  01m44.0s/10m0s
+
+running (01m45.0s), 20/20 VUs, 1940 complete and 0 interrupted iterations
+normal_trading   [  17% ] 20 VUs  01m45.0s/10m0s
+
+running (01m46.0s), 20/20 VUs, 1960 complete and 0 interrupted iterations
+normal_trading   [  18% ] 20 VUs  01m46.0s/10m0s
+
+running (01m47.0s), 20/20 VUs, 1980 complete and 0 interrupted iterations
+normal_trading   [  18% ] 20 VUs  01m47.0s/10m0s
+
+running (01m48.0s), 20/20 VUs, 2000 complete and 0 interrupted iterations
+normal_trading   [  18% ] 20 VUs  01m48.0s/10m0s
+
+running (01m49.0s), 20/20 VUs, 2020 complete and 0 interrupted iterations
+normal_trading   [  18% ] 20 VUs  01m49.0s/10m0s
+
+running (01m50.0s), 20/20 VUs, 2020 complete and 0 interrupted iterations
+normal_trading   [  18% ] 20 VUs  01m50.0s/10m0s
+
+running (01m51.0s), 20/20 VUs, 2040 complete and 0 interrupted iterations
+normal_trading   [  18% ] 20 VUs  01m51.0s/10m0s
+
+running (01m52.0s), 20/20 VUs, 2060 complete and 0 interrupted iterations
+normal_trading   [  19% ] 20 VUs  01m52.0s/10m0s
+
+running (01m53.0s), 20/20 VUs, 2080 complete and 0 interrupted iterations
+normal_trading   [  19% ] 20 VUs  01m53.0s/10m0s
+
+running (01m54.0s), 20/20 VUs, 2100 complete and 0 interrupted iterations
+normal_trading   [  19% ] 20 VUs  01m54.0s/10m0s
+
+running (01m55.0s), 20/20 VUs, 2120 complete and 0 interrupted iterations
+normal_trading   [  19% ] 20 VUs  01m55.0s/10m0s
+
+running (01m56.0s), 20/20 VUs, 2140 complete and 0 interrupted iterations
+normal_trading   [  19% ] 20 VUs  01m56.0s/10m0s
+
+running (01m57.0s), 20/20 VUs, 2160 complete and 0 interrupted iterations
+normal_trading   [  19% ] 20 VUs  01m57.0s/10m0s
+
+running (01m58.0s), 20/20 VUs, 2180 complete and 0 interrupted iterations
+normal_trading   [  20% ] 20 VUs  01m58.0s/10m0s
+
+running (01m59.0s), 20/20 VUs, 2200 complete and 0 interrupted iterations
+normal_trading   [  20% ] 20 VUs  01m59.0s/10m0s
+
+running (02m00.0s), 20/20 VUs, 2220 complete and 0 interrupted iterations
+normal_trading   [  20% ] 20 VUs  02m00.0s/10m0s
+
+running (02m01.0s), 20/20 VUs, 2240 complete and 0 interrupted iterations
+normal_trading   [  20% ] 20 VUs  02m01.0s/10m0s
+
+running (02m02.0s), 20/20 VUs, 2260 complete and 0 interrupted iterations
+normal_trading   [  20% ] 20 VUs  02m02.0s/10m0s
+
+running (02m03.0s), 20/20 VUs, 2260 complete and 0 interrupted iterations
+normal_trading   [  20% ] 20 VUs  02m03.0s/10m0s
+
+running (02m04.0s), 20/20 VUs, 2280 complete and 0 interrupted iterations
+normal_trading   [  21% ] 20 VUs  02m04.0s/10m0s
+
+running (02m05.0s), 20/20 VUs, 2300 complete and 0 interrupted iterations
+normal_trading   [  21% ] 20 VUs  02m05.0s/10m0s
+
+running (02m06.0s), 20/20 VUs, 2320 complete and 0 interrupted iterations
+normal_trading   [  21% ] 20 VUs  02m06.0s/10m0s
+
+running (02m07.0s), 20/20 VUs, 2340 complete and 0 interrupted iterations
+normal_trading   [  21% ] 20 VUs  02m07.0s/10m0s
+
+running (02m08.0s), 20/20 VUs, 2360 complete and 0 interrupted iterations
+normal_trading   [  21% ] 20 VUs  02m08.0s/10m0s
+
+running (02m09.0s), 20/20 VUs, 2380 complete and 0 interrupted iterations
+normal_trading   [  21% ] 20 VUs  02m09.0s/10m0s
+
+running (02m10.0s), 20/20 VUs, 2400 complete and 0 interrupted iterations
+normal_trading   [  22% ] 20 VUs  02m10.0s/10m0s
+
+running (02m11.0s), 20/20 VUs, 2420 complete and 0 interrupted iterations
+normal_trading   [  22% ] 20 VUs  02m11.0s/10m0s
+
+running (02m12.0s), 20/20 VUs, 2440 complete and 0 interrupted iterations
+normal_trading   [  22% ] 20 VUs  02m12.0s/10m0s
+
+running (02m13.0s), 20/20 VUs, 2460 complete and 0 interrupted iterations
+normal_trading   [  22% ] 20 VUs  02m13.0s/10m0s
+
+running (02m14.0s), 20/20 VUs, 2480 complete and 0 interrupted iterations
+normal_trading   [  22% ] 20 VUs  02m14.0s/10m0s
+
+running (02m15.0s), 20/20 VUs, 2500 complete and 0 interrupted iterations
+normal_trading   [  22% ] 20 VUs  02m15.0s/10m0s
+
+running (02m16.0s), 20/20 VUs, 2520 complete and 0 interrupted iterations
+normal_trading   [  23% ] 20 VUs  02m16.0s/10m0s
+
+running (02m17.0s), 20/20 VUs, 2520 complete and 0 interrupted iterations
+normal_trading   [  23% ] 20 VUs  02m17.0s/10m0s
+
+running (02m18.0s), 20/20 VUs, 2540 complete and 0 interrupted iterations
+normal_trading   [  23% ] 20 VUs  02m18.0s/10m0s
+
+running (02m19.0s), 20/20 VUs, 2560 complete and 0 interrupted iterations
+normal_trading   [  23% ] 20 VUs  02m19.0s/10m0s
+
+running (02m20.0s), 20/20 VUs, 2580 complete and 0 interrupted iterations
+normal_trading   [  23% ] 20 VUs  02m20.0s/10m0s
+
+running (02m21.0s), 20/20 VUs, 2600 complete and 0 interrupted iterations
+normal_trading   [  23% ] 20 VUs  02m21.0s/10m0s
+
+running (02m22.0s), 20/20 VUs, 2620 complete and 0 interrupted iterations
+normal_trading   [  24% ] 20 VUs  02m22.0s/10m0s
+
+running (02m23.0s), 20/20 VUs, 2640 complete and 0 interrupted iterations
+normal_trading   [  24% ] 20 VUs  02m23.0s/10m0s
+
+running (02m24.0s), 20/20 VUs, 2660 complete and 0 interrupted iterations
+normal_trading   [  24% ] 20 VUs  02m24.0s/10m0s
+
+running (02m25.0s), 20/20 VUs, 2680 complete and 0 interrupted iterations
+normal_trading   [  24% ] 20 VUs  02m25.0s/10m0s
+
+running (02m26.0s), 20/20 VUs, 2700 complete and 0 interrupted iterations
+normal_trading   [  24% ] 20 VUs  02m26.0s/10m0s
+
+running (02m27.0s), 20/20 VUs, 2720 complete and 0 interrupted iterations
+normal_trading   [  24% ] 20 VUs  02m27.0s/10m0s
+
+running (02m28.0s), 20/20 VUs, 2740 complete and 0 interrupted iterations
+normal_trading   [  25% ] 20 VUs  02m28.0s/10m0s
+
+running (02m29.0s), 20/20 VUs, 2760 complete and 0 interrupted iterations
+normal_trading   [  25% ] 20 VUs  02m29.0s/10m0s
+
+running (02m30.0s), 20/20 VUs, 2780 complete and 0 interrupted iterations
+normal_trading   [  25% ] 20 VUs  02m30.0s/10m0s
+
+running (02m31.0s), 20/20 VUs, 2780 complete and 0 interrupted iterations
+normal_trading   [  25% ] 20 VUs  02m31.0s/10m0s
+
+running (02m32.0s), 20/20 VUs, 2800 complete and 0 interrupted iterations
+normal_trading   [  25% ] 20 VUs  02m32.0s/10m0s
+
+running (02m33.0s), 20/20 VUs, 2820 complete and 0 interrupted iterations
+normal_trading   [  25% ] 20 VUs  02m33.0s/10m0s
+
+running (02m34.0s), 20/20 VUs, 2840 complete and 0 interrupted iterations
+normal_trading   [  26% ] 20 VUs  02m34.0s/10m0s
+
+running (02m35.0s), 20/20 VUs, 2860 complete and 0 interrupted iterations
+normal_trading   [  26% ] 20 VUs  02m35.0s/10m0s
+
+running (02m36.0s), 20/20 VUs, 2880 complete and 0 interrupted iterations
+normal_trading   [  26% ] 20 VUs  02m36.0s/10m0s
+
+running (02m37.0s), 20/20 VUs, 2900 complete and 0 interrupted iterations
+normal_trading   [  26% ] 20 VUs  02m37.0s/10m0s
+
+running (02m38.0s), 20/20 VUs, 2920 complete and 0 interrupted iterations
+normal_trading   [  26% ] 20 VUs  02m38.0s/10m0s
+
+running (02m39.0s), 20/20 VUs, 2940 complete and 0 interrupted iterations
+normal_trading   [  26% ] 20 VUs  02m39.0s/10m0s
+
+running (02m40.0s), 20/20 VUs, 2960 complete and 0 interrupted iterations
+normal_trading   [  27% ] 20 VUs  02m40.0s/10m0s
+
+running (02m41.0s), 20/20 VUs, 2980 complete and 0 interrupted iterations
+normal_trading   [  27% ] 20 VUs  02m41.0s/10m0s
+
+running (02m42.0s), 20/20 VUs, 3000 complete and 0 interrupted iterations
+normal_trading   [  27% ] 20 VUs  02m42.0s/10m0s
+
+running (02m43.0s), 20/20 VUs, 3020 complete and 0 interrupted iterations
+normal_trading   [  27% ] 20 VUs  02m43.0s/10m0s
+
+running (02m44.0s), 20/20 VUs, 3020 complete and 0 interrupted iterations
+normal_trading   [  27% ] 20 VUs  02m44.0s/10m0s
+
+running (02m45.0s), 20/20 VUs, 3040 complete and 0 interrupted iterations
+normal_trading   [  27% ] 20 VUs  02m45.0s/10m0s
+
+running (02m46.0s), 20/20 VUs, 3060 complete and 0 interrupted iterations
+normal_trading   [  28% ] 20 VUs  02m46.0s/10m0s
+
+running (02m47.0s), 20/20 VUs, 3080 complete and 0 interrupted iterations
+normal_trading   [  28% ] 20 VUs  02m47.0s/10m0s
+
+running (02m48.0s), 20/20 VUs, 3100 complete and 0 interrupted iterations
+normal_trading   [  28% ] 20 VUs  02m48.0s/10m0s
+
+running (02m49.0s), 20/20 VUs, 3120 complete and 0 interrupted iterations
+normal_trading   [  28% ] 20 VUs  02m49.0s/10m0s
+
+running (02m50.0s), 20/20 VUs, 3140 complete and 0 interrupted iterations
+normal_trading   [  28% ] 20 VUs  02m50.0s/10m0s
+
+running (02m51.0s), 20/20 VUs, 3160 complete and 0 interrupted iterations
+normal_trading   [  28% ] 20 VUs  02m51.0s/10m0s
+
+running (02m52.0s), 20/20 VUs, 3180 complete and 0 interrupted iterations
+normal_trading   [  29% ] 20 VUs  02m52.0s/10m0s
+
+running (02m53.0s), 20/20 VUs, 3200 complete and 0 interrupted iterations
+normal_trading   [  29% ] 20 VUs  02m53.0s/10m0s
+
+running (02m54.0s), 20/20 VUs, 3220 complete and 0 interrupted iterations
+normal_trading   [  29% ] 20 VUs  02m54.0s/10m0s
+
+running (02m55.0s), 20/20 VUs, 3240 complete and 0 interrupted iterations
+normal_trading   [  29% ] 20 VUs  02m55.0s/10m0s
+
+running (02m56.0s), 20/20 VUs, 3260 complete and 0 interrupted iterations
+normal_trading   [  29% ] 20 VUs  02m56.0s/10m0s
+
+running (02m57.0s), 20/20 VUs, 3280 complete and 0 interrupted iterations
+normal_trading   [  29% ] 20 VUs  02m57.0s/10m0s
+
+running (02m58.0s), 20/20 VUs, 3280 complete and 0 interrupted iterations
+normal_trading   [  30% ] 20 VUs  02m58.0s/10m0s
+
+running (02m59.0s), 20/20 VUs, 3300 complete and 0 interrupted iterations
+normal_trading   [  30% ] 20 VUs  02m59.0s/10m0s
+
+running (03m00.0s), 20/20 VUs, 3320 complete and 0 interrupted iterations
+normal_trading   [  30% ] 20 VUs  03m00.0s/10m0s
+
+running (03m01.0s), 20/20 VUs, 3340 complete and 0 interrupted iterations
+normal_trading   [  30% ] 20 VUs  03m01.0s/10m0s
+
+running (03m02.0s), 20/20 VUs, 3360 complete and 0 interrupted iterations
+normal_trading   [  30% ] 20 VUs  03m02.0s/10m0s
+
+running (03m03.0s), 20/20 VUs, 3380 complete and 0 interrupted iterations
+normal_trading   [  30% ] 20 VUs  03m03.0s/10m0s
+
+running (03m04.0s), 20/20 VUs, 3400 complete and 0 interrupted iterations
+normal_trading   [  31% ] 20 VUs  03m04.0s/10m0s
+
+running (03m05.0s), 20/20 VUs, 3420 complete and 0 interrupted iterations
+normal_trading   [  31% ] 20 VUs  03m05.0s/10m0s
+
+running (03m06.0s), 20/20 VUs, 3440 complete and 0 interrupted iterations
+normal_trading   [  31% ] 20 VUs  03m06.0s/10m0s
+
+running (03m07.0s), 20/20 VUs, 3460 complete and 0 interrupted iterations
+normal_trading   [  31% ] 20 VUs  03m07.0s/10m0s
+
+running (03m08.0s), 20/20 VUs, 3480 complete and 0 interrupted iterations
+normal_trading   [  31% ] 20 VUs  03m08.0s/10m0s
+
+running (03m09.0s), 20/20 VUs, 3500 complete and 0 interrupted iterations
+normal_trading   [  31% ] 20 VUs  03m09.0s/10m0s
+
+running (03m10.0s), 20/20 VUs, 3520 complete and 0 interrupted iterations
+normal_trading   [  32% ] 20 VUs  03m10.0s/10m0s
+
+running (03m11.0s), 20/20 VUs, 3540 complete and 0 interrupted iterations
+normal_trading   [  32% ] 20 VUs  03m11.0s/10m0s
+
+running (03m12.0s), 20/20 VUs, 3540 complete and 0 interrupted iterations
+normal_trading   [  32% ] 20 VUs  03m12.0s/10m0s
+
+running (03m13.0s), 20/20 VUs, 3560 complete and 0 interrupted iterations
+normal_trading   [  32% ] 20 VUs  03m13.0s/10m0s
+
+running (03m14.0s), 20/20 VUs, 3580 complete and 0 interrupted iterations
+normal_trading   [  32% ] 20 VUs  03m14.0s/10m0s
+
+running (03m15.0s), 20/20 VUs, 3600 complete and 0 interrupted iterations
+normal_trading   [  32% ] 20 VUs  03m15.0s/10m0s
+
+running (03m16.0s), 20/20 VUs, 3620 complete and 0 interrupted iterations
+normal_trading   [  33% ] 20 VUs  03m16.0s/10m0s
+
+running (03m17.0s), 20/20 VUs, 3640 complete and 0 interrupted iterations
+normal_trading   [  33% ] 20 VUs  03m17.0s/10m0s
+
+running (03m18.0s), 20/20 VUs, 3660 complete and 0 interrupted iterations
+normal_trading   [  33% ] 20 VUs  03m18.0s/10m0s
+
+running (03m19.0s), 20/20 VUs, 3680 complete and 0 interrupted iterations
+normal_trading   [  33% ] 20 VUs  03m19.0s/10m0s
+
+running (03m20.0s), 20/20 VUs, 3700 complete and 0 interrupted iterations
+normal_trading   [  33% ] 20 VUs  03m20.0s/10m0s
+
+running (03m21.0s), 20/20 VUs, 3720 complete and 0 interrupted iterations
+normal_trading   [  33% ] 20 VUs  03m21.0s/10m0s
+
+running (03m22.0s), 20/20 VUs, 3740 complete and 0 interrupted iterations
+normal_trading   [  34% ] 20 VUs  03m22.0s/10m0s
+
+running (03m23.0s), 20/20 VUs, 3760 complete and 0 interrupted iterations
+normal_trading   [  34% ] 20 VUs  03m23.0s/10m0s
+
+running (03m24.0s), 20/20 VUs, 3780 complete and 0 interrupted iterations
+normal_trading   [  34% ] 20 VUs  03m24.0s/10m0s
+
+running (03m25.0s), 20/20 VUs, 3780 complete and 0 interrupted iterations
+normal_trading   [  34% ] 20 VUs  03m25.0s/10m0s
+
+running (03m26.0s), 20/20 VUs, 3800 complete and 0 interrupted iterations
+normal_trading   [  34% ] 20 VUs  03m26.0s/10m0s
+
+running (03m27.0s), 20/20 VUs, 3820 complete and 0 interrupted iterations
+normal_trading   [  34% ] 20 VUs  03m27.0s/10m0s
+
+running (03m28.0s), 20/20 VUs, 3840 complete and 0 interrupted iterations
+normal_trading   [  35% ] 20 VUs  03m28.0s/10m0s
+
+running (03m29.0s), 20/20 VUs, 3860 complete and 0 interrupted iterations
+normal_trading   [  35% ] 20 VUs  03m29.0s/10m0s
+
+running (03m30.0s), 20/20 VUs, 3880 complete and 0 interrupted iterations
+normal_trading   [  35% ] 20 VUs  03m30.0s/10m0s
+
+running (03m31.0s), 20/20 VUs, 3900 complete and 0 interrupted iterations
+normal_trading   [  35% ] 20 VUs  03m31.0s/10m0s
+
+running (03m32.0s), 20/20 VUs, 3920 complete and 0 interrupted iterations
+normal_trading   [  35% ] 20 VUs  03m32.0s/10m0s
+
+running (03m33.0s), 20/20 VUs, 3940 complete and 0 interrupted iterations
+normal_trading   [  35% ] 20 VUs  03m33.0s/10m0s
+
+running (03m34.0s), 20/20 VUs, 3960 complete and 0 interrupted iterations
+normal_trading   [  36% ] 20 VUs  03m34.0s/10m0s
+
+running (03m35.0s), 20/20 VUs, 3980 complete and 0 interrupted iterations
+normal_trading   [  36% ] 20 VUs  03m35.0s/10m0s
+
+running (03m36.0s), 20/20 VUs, 4000 complete and 0 interrupted iterations
+normal_trading   [  36% ] 20 VUs  03m36.0s/10m0s
+
+running (03m37.0s), 20/20 VUs, 4020 complete and 0 interrupted iterations
+normal_trading   [  36% ] 20 VUs  03m37.0s/10m0s
+
+running (03m38.0s), 20/20 VUs, 4040 complete and 0 interrupted iterations
+normal_trading   [  36% ] 20 VUs  03m38.0s/10m0s
+
+running (03m39.0s), 20/20 VUs, 4040 complete and 0 interrupted iterations
+normal_trading   [  36% ] 20 VUs  03m39.0s/10m0s
+
+running (03m40.0s), 20/20 VUs, 4060 complete and 0 interrupted iterations
+normal_trading   [  37% ] 20 VUs  03m40.0s/10m0s
+
+running (03m41.0s), 20/20 VUs, 4080 complete and 0 interrupted iterations
+normal_trading   [  37% ] 20 VUs  03m41.0s/10m0s
+
+running (03m42.0s), 20/20 VUs, 4100 complete and 0 interrupted iterations
+normal_trading   [  37% ] 20 VUs  03m42.0s/10m0s
+
+running (03m43.0s), 20/20 VUs, 4120 complete and 0 interrupted iterations
+normal_trading   [  37% ] 20 VUs  03m43.0s/10m0s
+
+running (03m44.0s), 20/20 VUs, 4140 complete and 0 interrupted iterations
+normal_trading   [  37% ] 20 VUs  03m44.0s/10m0s
+
+running (03m45.0s), 20/20 VUs, 4160 complete and 0 interrupted iterations
+normal_trading   [  37% ] 20 VUs  03m45.0s/10m0s
+
+running (03m46.0s), 20/20 VUs, 4180 complete and 0 interrupted iterations
+normal_trading   [  38% ] 20 VUs  03m46.0s/10m0s
+
+running (03m47.0s), 20/20 VUs, 4200 complete and 0 interrupted iterations
+normal_trading   [  38% ] 20 VUs  03m47.0s/10m0s
+
+running (03m48.0s), 20/20 VUs, 4220 complete and 0 interrupted iterations
+normal_trading   [  38% ] 20 VUs  03m48.0s/10m0s
+
+running (03m49.0s), 20/20 VUs, 4240 complete and 0 interrupted iterations
+normal_trading   [  38% ] 20 VUs  03m49.0s/10m0s
+
+running (03m50.0s), 20/20 VUs, 4260 complete and 0 interrupted iterations
+normal_trading   [  38% ] 20 VUs  03m50.0s/10m0s
+
+running (03m51.0s), 20/20 VUs, 4280 complete and 0 interrupted iterations
+normal_trading   [  38% ] 20 VUs  03m51.0s/10m0s
+
+running (03m52.0s), 20/20 VUs, 4300 complete and 0 interrupted iterations
+normal_trading   [  39% ] 20 VUs  03m52.0s/10m0s
+
+running (03m53.0s), 20/20 VUs, 4300 complete and 0 interrupted iterations
+normal_trading   [  39% ] 20 VUs  03m53.0s/10m0s
+
+running (03m54.0s), 20/20 VUs, 4320 complete and 0 interrupted iterations
+normal_trading   [  39% ] 20 VUs  03m54.0s/10m0s
+
+running (03m55.0s), 20/20 VUs, 4340 complete and 0 interrupted iterations
+normal_trading   [  39% ] 20 VUs  03m55.0s/10m0s
+
+running (03m56.0s), 20/20 VUs, 4360 complete and 0 interrupted iterations
+normal_trading   [  39% ] 20 VUs  03m56.0s/10m0s
+
+running (03m57.0s), 20/20 VUs, 4380 complete and 0 interrupted iterations
+normal_trading   [  39% ] 20 VUs  03m57.0s/10m0s
+
+running (03m58.0s), 20/20 VUs, 4400 complete and 0 interrupted iterations
+normal_trading   [  40% ] 20 VUs  03m58.0s/10m0s
+
+running (03m59.0s), 20/20 VUs, 4420 complete and 0 interrupted iterations
+normal_trading   [  40% ] 20 VUs  03m59.0s/10m0s
+
+running (04m00.0s), 20/20 VUs, 4440 complete and 0 interrupted iterations
+normal_trading   [  40% ] 20 VUs  04m00.0s/10m0s
+
+running (04m01.0s), 20/20 VUs, 4460 complete and 0 interrupted iterations
+normal_trading   [  40% ] 20 VUs  04m01.0s/10m0s
+
+running (04m02.0s), 20/20 VUs, 4480 complete and 0 interrupted iterations
+normal_trading   [  40% ] 20 VUs  04m02.0s/10m0s
+
+running (04m03.0s), 20/20 VUs, 4500 complete and 0 interrupted iterations
+normal_trading   [  40% ] 20 VUs  04m03.0s/10m0s
+
+running (04m04.0s), 20/20 VUs, 4520 complete and 0 interrupted iterations
+normal_trading   [  41% ] 20 VUs  04m04.0s/10m0s
+
+running (04m05.0s), 20/20 VUs, 4540 complete and 0 interrupted iterations
+normal_trading   [  41% ] 20 VUs  04m05.0s/10m0s
+
+running (04m06.0s), 20/20 VUs, 4560 complete and 0 interrupted iterations
+normal_trading   [  41% ] 20 VUs  04m06.0s/10m0s
+
+running (04m07.0s), 20/20 VUs, 4560 complete and 0 interrupted iterations
+normal_trading   [  41% ] 20 VUs  04m07.0s/10m0s
+
+running (04m08.0s), 20/20 VUs, 4580 complete and 0 interrupted iterations
+normal_trading   [  41% ] 20 VUs  04m08.0s/10m0s
+
+running (04m09.0s), 20/20 VUs, 4600 complete and 0 interrupted iterations
+normal_trading   [  41% ] 20 VUs  04m09.0s/10m0s
+
+running (04m10.0s), 20/20 VUs, 4620 complete and 0 interrupted iterations
+normal_trading   [  42% ] 20 VUs  04m10.0s/10m0s
+
+running (04m11.0s), 20/20 VUs, 4640 complete and 0 interrupted iterations
+normal_trading   [  42% ] 20 VUs  04m11.0s/10m0s
+
+running (04m12.0s), 20/20 VUs, 4660 complete and 0 interrupted iterations
+normal_trading   [  42% ] 20 VUs  04m12.0s/10m0s
+
+running (04m13.0s), 20/20 VUs, 4680 complete and 0 interrupted iterations
+normal_trading   [  42% ] 20 VUs  04m13.0s/10m0s
+
+running (04m14.0s), 20/20 VUs, 4700 complete and 0 interrupted iterations
+normal_trading   [  42% ] 20 VUs  04m14.0s/10m0s
+
+running (04m15.0s), 20/20 VUs, 4720 complete and 0 interrupted iterations
+normal_trading   [  42% ] 20 VUs  04m15.0s/10m0s
+
+running (04m16.0s), 20/20 VUs, 4740 complete and 0 interrupted iterations
+normal_trading   [  43% ] 20 VUs  04m16.0s/10m0s
+
+running (04m17.0s), 20/20 VUs, 4760 complete and 0 interrupted iterations
+normal_trading   [  43% ] 20 VUs  04m17.0s/10m0s
+
+running (04m18.0s), 20/20 VUs, 4780 complete and 0 interrupted iterations
+normal_trading   [  43% ] 20 VUs  04m18.0s/10m0s
+
+running (04m19.0s), 20/20 VUs, 4800 complete and 0 interrupted iterations
+normal_trading   [  43% ] 20 VUs  04m19.0s/10m0s
+
+running (04m20.0s), 20/20 VUs, 4800 complete and 0 interrupted iterations
+normal_trading   [  43% ] 20 VUs  04m20.0s/10m0s
+
+running (04m21.0s), 20/20 VUs, 4820 complete and 0 interrupted iterations
+normal_trading   [  43% ] 20 VUs  04m21.0s/10m0s
+
+running (04m22.0s), 20/20 VUs, 4840 complete and 0 interrupted iterations
+normal_trading   [  44% ] 20 VUs  04m22.0s/10m0s
+
+running (04m23.0s), 20/20 VUs, 4860 complete and 0 interrupted iterations
+normal_trading   [  44% ] 20 VUs  04m23.0s/10m0s
+
+running (04m24.0s), 20/20 VUs, 4880 complete and 0 interrupted iterations
+normal_trading   [  44% ] 20 VUs  04m24.0s/10m0s
+
+running (04m25.0s), 20/20 VUs, 4900 complete and 0 interrupted iterations
+normal_trading   [  44% ] 20 VUs  04m25.0s/10m0s
+
+running (04m26.0s), 20/20 VUs, 4920 complete and 0 interrupted iterations
+normal_trading   [  44% ] 20 VUs  04m26.0s/10m0s
+
+running (04m27.0s), 20/20 VUs, 4940 complete and 0 interrupted iterations
+normal_trading   [  44% ] 20 VUs  04m27.0s/10m0s
+
+running (04m28.0s), 20/20 VUs, 4960 complete and 0 interrupted iterations
+normal_trading   [  45% ] 20 VUs  04m28.0s/10m0s
+
+running (04m29.0s), 20/20 VUs, 4980 complete and 0 interrupted iterations
+normal_trading   [  45% ] 20 VUs  04m29.0s/10m0s
+
+running (04m30.0s), 20/20 VUs, 5000 complete and 0 interrupted iterations
+normal_trading   [  45% ] 20 VUs  04m30.0s/10m0s
+
+running (04m31.0s), 20/20 VUs, 5020 complete and 0 interrupted iterations
+normal_trading   [  45% ] 20 VUs  04m31.0s/10m0s
+
+running (04m32.0s), 20/20 VUs, 5040 complete and 0 interrupted iterations
+normal_trading   [  45% ] 20 VUs  04m32.0s/10m0s
+
+running (04m33.0s), 20/20 VUs, 5060 complete and 0 interrupted iterations
+normal_trading   [  45% ] 20 VUs  04m33.0s/10m0s
+
+running (04m34.0s), 20/20 VUs, 5060 complete and 0 interrupted iterations
+normal_trading   [  46% ] 20 VUs  04m34.0s/10m0s
+
+running (04m35.0s), 20/20 VUs, 5080 complete and 0 interrupted iterations
+normal_trading   [  46% ] 20 VUs  04m35.0s/10m0s
+
+running (04m36.0s), 20/20 VUs, 5100 complete and 0 interrupted iterations
+normal_trading   [  46% ] 20 VUs  04m36.0s/10m0s
+
+running (04m37.0s), 20/20 VUs, 5120 complete and 0 interrupted iterations
+normal_trading   [  46% ] 20 VUs  04m37.0s/10m0s
+
+running (04m38.0s), 20/20 VUs, 5140 complete and 0 interrupted iterations
+normal_trading   [  46% ] 20 VUs  04m38.0s/10m0s
+
+running (04m39.0s), 20/20 VUs, 5160 complete and 0 interrupted iterations
+normal_trading   [  46% ] 20 VUs  04m39.0s/10m0s
+
+running (04m40.0s), 20/20 VUs, 5180 complete and 0 interrupted iterations
+normal_trading   [  47% ] 20 VUs  04m40.0s/10m0s
+
+running (04m41.0s), 20/20 VUs, 5200 complete and 0 interrupted iterations
+normal_trading   [  47% ] 20 VUs  04m41.0s/10m0s
+
+running (04m42.0s), 20/20 VUs, 5220 complete and 0 interrupted iterations
+normal_trading   [  47% ] 20 VUs  04m42.0s/10m0s
+
+running (04m43.0s), 20/20 VUs, 5240 complete and 0 interrupted iterations
+normal_trading   [  47% ] 20 VUs  04m43.0s/10m0s
+
+running (04m44.0s), 20/20 VUs, 5260 complete and 0 interrupted iterations
+normal_trading   [  47% ] 20 VUs  04m44.0s/10m0s
+
+running (04m45.0s), 20/20 VUs, 5280 complete and 0 interrupted iterations
+normal_trading   [  47% ] 20 VUs  04m45.0s/10m0s
+
+running (04m46.0s), 20/20 VUs, 5300 complete and 0 interrupted iterations
+normal_trading   [  48% ] 20 VUs  04m46.0s/10m0s
+
+running (04m47.0s), 20/20 VUs, 5320 complete and 0 interrupted iterations
+normal_trading   [  48% ] 20 VUs  04m47.0s/10m0s
+
+running (04m48.0s), 20/20 VUs, 5320 complete and 0 interrupted iterations
+normal_trading   [  48% ] 20 VUs  04m48.0s/10m0s
+
+running (04m49.0s), 20/20 VUs, 5340 complete and 0 interrupted iterations
+normal_trading   [  48% ] 20 VUs  04m49.0s/10m0s
+
+running (04m50.0s), 20/20 VUs, 5360 complete and 0 interrupted iterations
+normal_trading   [  48% ] 20 VUs  04m50.0s/10m0s
+
+running (04m51.0s), 20/20 VUs, 5380 complete and 0 interrupted iterations
+normal_trading   [  48% ] 20 VUs  04m51.0s/10m0s
+
+running (04m52.0s), 20/20 VUs, 5400 complete and 0 interrupted iterations
+normal_trading   [  49% ] 20 VUs  04m52.0s/10m0s
+
+running (04m53.0s), 20/20 VUs, 5420 complete and 0 interrupted iterations
+normal_trading   [  49% ] 20 VUs  04m53.0s/10m0s
+
+running (04m54.0s), 20/20 VUs, 5440 complete and 0 interrupted iterations
+normal_trading   [  49% ] 20 VUs  04m54.0s/10m0s
+
+running (04m55.0s), 20/20 VUs, 5460 complete and 0 interrupted iterations
+normal_trading   [  49% ] 20 VUs  04m55.0s/10m0s
+
+running (04m56.0s), 20/20 VUs, 5480 complete and 0 interrupted iterations
+normal_trading   [  49% ] 20 VUs  04m56.0s/10m0s
+
+running (04m57.0s), 20/20 VUs, 5500 complete and 0 interrupted iterations
+normal_trading   [  49% ] 20 VUs  04m57.0s/10m0s
+
+running (04m58.0s), 20/20 VUs, 5520 complete and 0 interrupted iterations
+normal_trading   [  50% ] 20 VUs  04m58.0s/10m0s
+
+running (04m59.0s), 20/20 VUs, 5540 complete and 0 interrupted iterations
+normal_trading   [  50% ] 20 VUs  04m59.0s/10m0s
+
+running (05m00.0s), 20/20 VUs, 5560 complete and 0 interrupted iterations
+normal_trading   [  50% ] 20 VUs  05m00.0s/10m0s
+
+running (05m01.0s), 20/20 VUs, 5560 complete and 0 interrupted iterations
+normal_trading   [  50% ] 20 VUs  05m01.0s/10m0s
+
+running (05m02.0s), 20/20 VUs, 5580 complete and 0 interrupted iterations
+normal_trading   [  50% ] 20 VUs  05m02.0s/10m0s
+
+running (05m03.0s), 20/20 VUs, 5600 complete and 0 interrupted iterations
+normal_trading   [  50% ] 20 VUs  05m03.0s/10m0s
+
+running (05m04.0s), 20/20 VUs, 5620 complete and 0 interrupted iterations
+normal_trading   [  51% ] 20 VUs  05m04.0s/10m0s
+
+running (05m05.0s), 20/20 VUs, 5640 complete and 0 interrupted iterations
+normal_trading   [  51% ] 20 VUs  05m05.0s/10m0s
+
+running (05m06.0s), 20/20 VUs, 5660 complete and 0 interrupted iterations
+normal_trading   [  51% ] 20 VUs  05m06.0s/10m0s
+
+running (05m07.0s), 20/20 VUs, 5680 complete and 0 interrupted iterations
+normal_trading   [  51% ] 20 VUs  05m07.0s/10m0s
+
+running (05m08.0s), 20/20 VUs, 5700 complete and 0 interrupted iterations
+normal_trading   [  51% ] 20 VUs  05m08.0s/10m0s
+
+running (05m09.0s), 20/20 VUs, 5720 complete and 0 interrupted iterations
+normal_trading   [  51% ] 20 VUs  05m09.0s/10m0s
+
+running (05m10.0s), 20/20 VUs, 5740 complete and 0 interrupted iterations
+normal_trading   [  52% ] 20 VUs  05m10.0s/10m0s
+
+running (05m11.0s), 20/20 VUs, 5760 complete and 0 interrupted iterations
+normal_trading   [  52% ] 20 VUs  05m11.0s/10m0s
+
+running (05m12.0s), 20/20 VUs, 5780 complete and 0 interrupted iterations
+normal_trading   [  52% ] 20 VUs  05m12.0s/10m0s
+
+running (05m13.0s), 20/20 VUs, 5800 complete and 0 interrupted iterations
+normal_trading   [  52% ] 20 VUs  05m13.0s/10m0s
+
+running (05m14.0s), 20/20 VUs, 5820 complete and 0 interrupted iterations
+normal_trading   [  52% ] 20 VUs  05m14.0s/10m0s
+
+running (05m15.0s), 20/20 VUs, 5820 complete and 0 interrupted iterations
+normal_trading   [  52% ] 20 VUs  05m15.0s/10m0s
+
+running (05m16.0s), 20/20 VUs, 5840 complete and 0 interrupted iterations
+normal_trading   [  53% ] 20 VUs  05m16.0s/10m0s
+
+running (05m17.0s), 20/20 VUs, 5860 complete and 0 interrupted iterations
+normal_trading   [  53% ] 20 VUs  05m17.0s/10m0s
+
+running (05m18.0s), 20/20 VUs, 5880 complete and 0 interrupted iterations
+normal_trading   [  53% ] 20 VUs  05m18.0s/10m0s
+
+running (05m19.0s), 20/20 VUs, 5900 complete and 0 interrupted iterations
+normal_trading   [  53% ] 20 VUs  05m19.0s/10m0s
+
+running (05m20.0s), 20/20 VUs, 5920 complete and 0 interrupted iterations
+normal_trading   [  53% ] 20 VUs  05m20.0s/10m0s
+
+running (05m21.0s), 20/20 VUs, 5940 complete and 0 interrupted iterations
+normal_trading   [  53% ] 20 VUs  05m21.0s/10m0s
+
+running (05m22.0s), 20/20 VUs, 5960 complete and 0 interrupted iterations
+normal_trading   [  54% ] 20 VUs  05m22.0s/10m0s
+
+running (05m23.0s), 20/20 VUs, 5980 complete and 0 interrupted iterations
+normal_trading   [  54% ] 20 VUs  05m23.0s/10m0s
+
+running (05m24.0s), 20/20 VUs, 6000 complete and 0 interrupted iterations
+normal_trading   [  54% ] 20 VUs  05m24.0s/10m0s
+
+running (05m25.0s), 20/20 VUs, 6020 complete and 0 interrupted iterations
+normal_trading   [  54% ] 20 VUs  05m25.0s/10m0s
+
+running (05m26.0s), 20/20 VUs, 6040 complete and 0 interrupted iterations
+normal_trading   [  54% ] 20 VUs  05m26.0s/10m0s
+
+running (05m27.0s), 20/20 VUs, 6060 complete and 0 interrupted iterations
+normal_trading   [  54% ] 20 VUs  05m27.0s/10m0s
+
+running (05m28.0s), 20/20 VUs, 6080 complete and 0 interrupted iterations
+normal_trading   [  55% ] 20 VUs  05m28.0s/10m0s
+
+running (05m29.0s), 20/20 VUs, 6080 complete and 0 interrupted iterations
+normal_trading   [  55% ] 20 VUs  05m29.0s/10m0s
+
+running (05m30.0s), 20/20 VUs, 6100 complete and 0 interrupted iterations
+normal_trading   [  55% ] 20 VUs  05m30.0s/10m0s
+
+running (05m31.0s), 20/20 VUs, 6120 complete and 0 interrupted iterations
+normal_trading   [  55% ] 20 VUs  05m31.0s/10m0s
+
+running (05m32.0s), 20/20 VUs, 6140 complete and 0 interrupted iterations
+normal_trading   [  55% ] 20 VUs  05m32.0s/10m0s
+
+running (05m33.0s), 20/20 VUs, 6160 complete and 0 interrupted iterations
+normal_trading   [  55% ] 20 VUs  05m33.0s/10m0s
+
+running (05m34.0s), 20/20 VUs, 6180 complete and 0 interrupted iterations
+normal_trading   [  56% ] 20 VUs  05m34.0s/10m0s
+
+running (05m35.0s), 20/20 VUs, 6200 complete and 0 interrupted iterations
+normal_trading   [  56% ] 20 VUs  05m35.0s/10m0s
+
+running (05m36.0s), 20/20 VUs, 6220 complete and 0 interrupted iterations
+normal_trading   [  56% ] 20 VUs  05m36.0s/10m0s
+
+running (05m37.0s), 20/20 VUs, 6240 complete and 0 interrupted iterations
+normal_trading   [  56% ] 20 VUs  05m37.0s/10m0s
+
+running (05m38.0s), 20/20 VUs, 6260 complete and 0 interrupted iterations
+normal_trading   [  56% ] 20 VUs  05m38.0s/10m0s
+
+running (05m39.0s), 20/20 VUs, 6280 complete and 0 interrupted iterations
+normal_trading   [  56% ] 20 VUs  05m39.0s/10m0s
+
+running (05m40.0s), 20/20 VUs, 6300 complete and 0 interrupted iterations
+normal_trading   [  57% ] 20 VUs  05m40.0s/10m0s
+
+running (05m41.0s), 20/20 VUs, 6320 complete and 0 interrupted iterations
+normal_trading   [  57% ] 20 VUs  05m41.0s/10m0s
+
+running (05m42.0s), 20/20 VUs, 6320 complete and 0 interrupted iterations
+normal_trading   [  57% ] 20 VUs  05m42.0s/10m0s
+
+running (05m43.0s), 20/20 VUs, 6340 complete and 0 interrupted iterations
+normal_trading   [  57% ] 20 VUs  05m43.0s/10m0s
+
+running (05m44.0s), 20/20 VUs, 6360 complete and 0 interrupted iterations
+normal_trading   [  57% ] 20 VUs  05m44.0s/10m0s
+
+running (05m45.0s), 20/20 VUs, 6380 complete and 0 interrupted iterations
+normal_trading   [  57% ] 20 VUs  05m45.0s/10m0s
+
+running (05m46.0s), 20/20 VUs, 6400 complete and 0 interrupted iterations
+normal_trading   [  58% ] 20 VUs  05m46.0s/10m0s
+
+running (05m47.0s), 20/20 VUs, 6420 complete and 0 interrupted iterations
+normal_trading   [  58% ] 20 VUs  05m47.0s/10m0s
+
+running (05m48.0s), 20/20 VUs, 6440 complete and 0 interrupted iterations
+normal_trading   [  58% ] 20 VUs  05m48.0s/10m0s
+
+running (05m49.0s), 20/20 VUs, 6460 complete and 0 interrupted iterations
+normal_trading   [  58% ] 20 VUs  05m49.0s/10m0s
+
+running (05m50.0s), 20/20 VUs, 6480 complete and 0 interrupted iterations
+normal_trading   [  58% ] 20 VUs  05m50.0s/10m0s
+
+running (05m51.0s), 20/20 VUs, 6500 complete and 0 interrupted iterations
+normal_trading   [  58% ] 20 VUs  05m51.0s/10m0s
+
+running (05m52.0s), 20/20 VUs, 6520 complete and 0 interrupted iterations
+normal_trading   [  59% ] 20 VUs  05m52.0s/10m0s
+
+running (05m53.0s), 20/20 VUs, 6540 complete and 0 interrupted iterations
+normal_trading   [  59% ] 20 VUs  05m53.0s/10m0s
+
+running (05m54.0s), 20/20 VUs, 6560 complete and 0 interrupted iterations
+normal_trading   [  59% ] 20 VUs  05m54.0s/10m0s
+
+running (05m55.0s), 20/20 VUs, 6580 complete and 0 interrupted iterations
+normal_trading   [  59% ] 20 VUs  05m55.0s/10m0s
+
+running (05m56.0s), 20/20 VUs, 6580 complete and 0 interrupted iterations
+normal_trading   [  59% ] 20 VUs  05m56.0s/10m0s
+
+running (05m57.0s), 20/20 VUs, 6600 complete and 0 interrupted iterations
+normal_trading   [  59% ] 20 VUs  05m57.0s/10m0s
+
+running (05m58.0s), 20/20 VUs, 6620 complete and 0 interrupted iterations
+normal_trading   [  60% ] 20 VUs  05m58.0s/10m0s
+
+running (05m59.0s), 20/20 VUs, 6640 complete and 0 interrupted iterations
+normal_trading   [  60% ] 20 VUs  05m59.0s/10m0s
+
+running (06m00.0s), 20/20 VUs, 6660 complete and 0 interrupted iterations
+normal_trading   [  60% ] 20 VUs  06m00.0s/10m0s
+
+running (06m01.0s), 20/20 VUs, 6680 complete and 0 interrupted iterations
+normal_trading   [  60% ] 20 VUs  06m01.0s/10m0s
+
+running (06m02.0s), 20/20 VUs, 6700 complete and 0 interrupted iterations
+normal_trading   [  60% ] 20 VUs  06m02.0s/10m0s
+
+running (06m03.0s), 20/20 VUs, 6720 complete and 0 interrupted iterations
+normal_trading   [  60% ] 20 VUs  06m03.0s/10m0s
+
+running (06m04.0s), 20/20 VUs, 6740 complete and 0 interrupted iterations
+normal_trading   [  61% ] 20 VUs  06m04.0s/10m0s
+
+running (06m05.0s), 20/20 VUs, 6760 complete and 0 interrupted iterations
+normal_trading   [  61% ] 20 VUs  06m05.0s/10m0s
+
+running (06m06.0s), 20/20 VUs, 6780 complete and 0 interrupted iterations
+normal_trading   [  61% ] 20 VUs  06m06.0s/10m0s
+
+running (06m07.0s), 20/20 VUs, 6800 complete and 0 interrupted iterations
+normal_trading   [  61% ] 20 VUs  06m07.0s/10m0s
+
+running (06m08.0s), 20/20 VUs, 6820 complete and 0 interrupted iterations
+normal_trading   [  61% ] 20 VUs  06m08.0s/10m0s
+
+running (06m09.0s), 20/20 VUs, 6840 complete and 0 interrupted iterations
+normal_trading   [  61% ] 20 VUs  06m09.0s/10m0s
+
+running (06m10.0s), 20/20 VUs, 6840 complete and 0 interrupted iterations
+normal_trading   [  62% ] 20 VUs  06m10.0s/10m0s
+
+running (06m11.0s), 20/20 VUs, 6860 complete and 0 interrupted iterations
+normal_trading   [  62% ] 20 VUs  06m11.0s/10m0s
+
+running (06m12.0s), 20/20 VUs, 6880 complete and 0 interrupted iterations
+normal_trading   [  62% ] 20 VUs  06m12.0s/10m0s
+
+running (06m13.0s), 20/20 VUs, 6900 complete and 0 interrupted iterations
+normal_trading   [  62% ] 20 VUs  06m13.0s/10m0s
+
+running (06m14.0s), 20/20 VUs, 6920 complete and 0 interrupted iterations
+normal_trading   [  62% ] 20 VUs  06m14.0s/10m0s
+
+running (06m15.0s), 20/20 VUs, 6940 complete and 0 interrupted iterations
+normal_trading   [  62% ] 20 VUs  06m15.0s/10m0s
+
+running (06m16.0s), 20/20 VUs, 6960 complete and 0 interrupted iterations
+normal_trading   [  63% ] 20 VUs  06m16.0s/10m0s
+
+running (06m17.0s), 20/20 VUs, 6980 complete and 0 interrupted iterations
+normal_trading   [  63% ] 20 VUs  06m17.0s/10m0s
+
+running (06m18.0s), 20/20 VUs, 7000 complete and 0 interrupted iterations
+normal_trading   [  63% ] 20 VUs  06m18.0s/10m0s
+
+running (06m19.0s), 20/20 VUs, 7020 complete and 0 interrupted iterations
+normal_trading   [  63% ] 20 VUs  06m19.0s/10m0s
+
+running (06m20.0s), 20/20 VUs, 7040 complete and 0 interrupted iterations
+normal_trading   [  63% ] 20 VUs  06m20.0s/10m0s
+
+running (06m21.0s), 20/20 VUs, 7060 complete and 0 interrupted iterations
+normal_trading   [  63% ] 20 VUs  06m21.0s/10m0s
+
+running (06m22.0s), 20/20 VUs, 7080 complete and 0 interrupted iterations
+normal_trading   [  64% ] 20 VUs  06m22.0s/10m0s
+
+running (06m23.0s), 20/20 VUs, 7080 complete and 0 interrupted iterations
+normal_trading   [  64% ] 20 VUs  06m23.0s/10m0s
+
+running (06m24.0s), 20/20 VUs, 7100 complete and 0 interrupted iterations
+normal_trading   [  64% ] 20 VUs  06m24.0s/10m0s
+
+running (06m25.0s), 20/20 VUs, 7120 complete and 0 interrupted iterations
+normal_trading   [  64% ] 20 VUs  06m25.0s/10m0s
+
+running (06m26.0s), 20/20 VUs, 7140 complete and 0 interrupted iterations
+normal_trading   [  64% ] 20 VUs  06m26.0s/10m0s
+
+running (06m27.0s), 20/20 VUs, 7160 complete and 0 interrupted iterations
+normal_trading   [  64% ] 20 VUs  06m27.0s/10m0s
+
+running (06m28.0s), 20/20 VUs, 7180 complete and 0 interrupted iterations
+normal_trading   [  65% ] 20 VUs  06m28.0s/10m0s
+
+running (06m29.0s), 20/20 VUs, 7200 complete and 0 interrupted iterations
+normal_trading   [  65% ] 20 VUs  06m29.0s/10m0s
+
+running (06m30.0s), 20/20 VUs, 7220 complete and 0 interrupted iterations
+normal_trading   [  65% ] 20 VUs  06m30.0s/10m0s
+
+running (06m31.0s), 20/20 VUs, 7240 complete and 0 interrupted iterations
+normal_trading   [  65% ] 20 VUs  06m31.0s/10m0s
+
+running (06m32.0s), 20/20 VUs, 7260 complete and 0 interrupted iterations
+normal_trading   [  65% ] 20 VUs  06m32.0s/10m0s
+
+running (06m33.0s), 20/20 VUs, 7280 complete and 0 interrupted iterations
+normal_trading   [  65% ] 20 VUs  06m33.0s/10m0s
+
+running (06m34.0s), 20/20 VUs, 7300 complete and 0 interrupted iterations
+normal_trading   [  66% ] 20 VUs  06m34.0s/10m0s
+
+running (06m35.0s), 20/20 VUs, 7320 complete and 0 interrupted iterations
+normal_trading   [  66% ] 20 VUs  06m35.0s/10m0s
+
+running (06m36.0s), 20/20 VUs, 7340 complete and 0 interrupted iterations
+normal_trading   [  66% ] 20 VUs  06m36.0s/10m0s
+
+running (06m37.0s), 20/20 VUs, 7340 complete and 0 interrupted iterations
+normal_trading   [  66% ] 20 VUs  06m37.0s/10m0s
+
+running (06m38.0s), 20/20 VUs, 7360 complete and 0 interrupted iterations
+normal_trading   [  66% ] 20 VUs  06m38.0s/10m0s
+
+running (06m39.0s), 20/20 VUs, 7380 complete and 0 interrupted iterations
+normal_trading   [  66% ] 20 VUs  06m39.0s/10m0s
+
+running (06m40.0s), 20/20 VUs, 7400 complete and 0 interrupted iterations
+normal_trading   [  67% ] 20 VUs  06m40.0s/10m0s
+
+running (06m41.0s), 20/20 VUs, 7420 complete and 0 interrupted iterations
+normal_trading   [  67% ] 20 VUs  06m41.0s/10m0s
+
+running (06m42.0s), 20/20 VUs, 7440 complete and 0 interrupted iterations
+normal_trading   [  67% ] 20 VUs  06m42.0s/10m0s
+
+running (06m43.0s), 20/20 VUs, 7460 complete and 0 interrupted iterations
+normal_trading   [  67% ] 20 VUs  06m43.0s/10m0s
+
+running (06m44.0s), 20/20 VUs, 7480 complete and 0 interrupted iterations
+normal_trading   [  67% ] 20 VUs  06m44.0s/10m0s
+
+running (06m45.0s), 20/20 VUs, 7500 complete and 0 interrupted iterations
+normal_trading   [  67% ] 20 VUs  06m45.0s/10m0s
+
+running (06m46.0s), 20/20 VUs, 7520 complete and 0 interrupted iterations
+normal_trading   [  68% ] 20 VUs  06m46.0s/10m0s
+
+running (06m47.0s), 20/20 VUs, 7540 complete and 0 interrupted iterations
+normal_trading   [  68% ] 20 VUs  06m47.0s/10m0s
+
+running (06m48.0s), 20/20 VUs, 7560 complete and 0 interrupted iterations
+normal_trading   [  68% ] 20 VUs  06m48.0s/10m0s
+
+running (06m49.0s), 20/20 VUs, 7580 complete and 0 interrupted iterations
+normal_trading   [  68% ] 20 VUs  06m49.0s/10m0s
+
+running (06m50.0s), 20/20 VUs, 7600 complete and 0 interrupted iterations
+normal_trading   [  68% ] 20 VUs  06m50.0s/10m0s
+
+running (06m51.0s), 20/20 VUs, 7600 complete and 0 interrupted iterations
+normal_trading   [  68% ] 20 VUs  06m51.0s/10m0s
+
+running (06m52.0s), 20/20 VUs, 7620 complete and 0 interrupted iterations
+normal_trading   [  69% ] 20 VUs  06m52.0s/10m0s
+
+running (06m53.0s), 20/20 VUs, 7640 complete and 0 interrupted iterations
+normal_trading   [  69% ] 20 VUs  06m53.0s/10m0s
+
+running (06m54.0s), 20/20 VUs, 7660 complete and 0 interrupted iterations
+normal_trading   [  69% ] 20 VUs  06m54.0s/10m0s
+
+running (06m55.0s), 20/20 VUs, 7680 complete and 0 interrupted iterations
+normal_trading   [  69% ] 20 VUs  06m55.0s/10m0s
+
+running (06m56.0s), 20/20 VUs, 7700 complete and 0 interrupted iterations
+normal_trading   [  69% ] 20 VUs  06m56.0s/10m0s
+
+running (06m57.0s), 20/20 VUs, 7720 complete and 0 interrupted iterations
+normal_trading   [  69% ] 20 VUs  06m57.0s/10m0s
+
+running (06m58.0s), 20/20 VUs, 7740 complete and 0 interrupted iterations
+normal_trading   [  70% ] 20 VUs  06m58.0s/10m0s
+
+running (06m59.0s), 20/20 VUs, 7760 complete and 0 interrupted iterations
+normal_trading   [  70% ] 20 VUs  06m59.0s/10m0s
+
+running (07m00.0s), 20/20 VUs, 7780 complete and 0 interrupted iterations
+normal_trading   [  70% ] 20 VUs  07m00.0s/10m0s
+
+running (07m01.0s), 20/20 VUs, 7800 complete and 0 interrupted iterations
+normal_trading   [  70% ] 20 VUs  07m01.0s/10m0s
+
+running (07m02.0s), 20/20 VUs, 7820 complete and 0 interrupted iterations
+normal_trading   [  70% ] 20 VUs  07m02.0s/10m0s
+
+running (07m03.0s), 20/20 VUs, 7840 complete and 0 interrupted iterations
+normal_trading   [  70% ] 20 VUs  07m03.0s/10m0s
+
+running (07m04.0s), 20/20 VUs, 7840 complete and 0 interrupted iterations
+normal_trading   [  71% ] 20 VUs  07m04.0s/10m0s
+
+running (07m05.0s), 20/20 VUs, 7860 complete and 0 interrupted iterations
+normal_trading   [  71% ] 20 VUs  07m05.0s/10m0s
+
+running (07m06.0s), 20/20 VUs, 7880 complete and 0 interrupted iterations
+normal_trading   [  71% ] 20 VUs  07m06.0s/10m0s
+
+running (07m07.0s), 20/20 VUs, 7900 complete and 0 interrupted iterations
+normal_trading   [  71% ] 20 VUs  07m07.0s/10m0s
+
+running (07m08.0s), 20/20 VUs, 7920 complete and 0 interrupted iterations
+normal_trading   [  71% ] 20 VUs  07m08.0s/10m0s
+
+running (07m09.0s), 20/20 VUs, 7940 complete and 0 interrupted iterations
+normal_trading   [  71% ] 20 VUs  07m09.0s/10m0s
+
+running (07m10.0s), 20/20 VUs, 7960 complete and 0 interrupted iterations
+normal_trading   [  72% ] 20 VUs  07m10.0s/10m0s
+
+running (07m11.0s), 20/20 VUs, 7980 complete and 0 interrupted iterations
+normal_trading   [  72% ] 20 VUs  07m11.0s/10m0s
+
+running (07m12.0s), 20/20 VUs, 8000 complete and 0 interrupted iterations
+normal_trading   [  72% ] 20 VUs  07m12.0s/10m0s
+
+running (07m13.0s), 20/20 VUs, 8020 complete and 0 interrupted iterations
+normal_trading   [  72% ] 20 VUs  07m13.0s/10m0s
+
+running (07m14.0s), 20/20 VUs, 8040 complete and 0 interrupted iterations
+normal_trading   [  72% ] 20 VUs  07m14.0s/10m0s
+
+running (07m15.0s), 20/20 VUs, 8060 complete and 0 interrupted iterations
+normal_trading   [  72% ] 20 VUs  07m15.0s/10m0s
+
+running (07m16.0s), 20/20 VUs, 8080 complete and 0 interrupted iterations
+normal_trading   [  73% ] 20 VUs  07m16.0s/10m0s
+
+running (07m17.0s), 20/20 VUs, 8100 complete and 0 interrupted iterations
+normal_trading   [  73% ] 20 VUs  07m17.0s/10m0s
+
+running (07m18.0s), 20/20 VUs, 8100 complete and 0 interrupted iterations
+normal_trading   [  73% ] 20 VUs  07m18.0s/10m0s
+
+running (07m19.0s), 20/20 VUs, 8120 complete and 0 interrupted iterations
+normal_trading   [  73% ] 20 VUs  07m19.0s/10m0s
+
+running (07m20.0s), 20/20 VUs, 8140 complete and 0 interrupted iterations
+normal_trading   [  73% ] 20 VUs  07m20.0s/10m0s
+
+running (07m21.0s), 20/20 VUs, 8160 complete and 0 interrupted iterations
+normal_trading   [  73% ] 20 VUs  07m21.0s/10m0s
+
+running (07m22.0s), 20/20 VUs, 8180 complete and 0 interrupted iterations
+normal_trading   [  74% ] 20 VUs  07m22.0s/10m0s
+
+running (07m23.0s), 20/20 VUs, 8200 complete and 0 interrupted iterations
+normal_trading   [  74% ] 20 VUs  07m23.0s/10m0s
+
+running (07m24.0s), 20/20 VUs, 8220 complete and 0 interrupted iterations
+normal_trading   [  74% ] 20 VUs  07m24.0s/10m0s
+
+running (07m25.0s), 20/20 VUs, 8240 complete and 0 interrupted iterations
+normal_trading   [  74% ] 20 VUs  07m25.0s/10m0s
+
+running (07m26.0s), 20/20 VUs, 8260 complete and 0 interrupted iterations
+normal_trading   [  74% ] 20 VUs  07m26.0s/10m0s
+
+running (07m27.0s), 20/20 VUs, 8280 complete and 0 interrupted iterations
+normal_trading   [  74% ] 20 VUs  07m27.0s/10m0s
+
+running (07m28.0s), 20/20 VUs, 8300 complete and 0 interrupted iterations
+normal_trading   [  75% ] 20 VUs  07m28.0s/10m0s
+
+running (07m29.0s), 20/20 VUs, 8320 complete and 0 interrupted iterations
+normal_trading   [  75% ] 20 VUs  07m29.0s/10m0s
+
+running (07m30.0s), 20/20 VUs, 8340 complete and 0 interrupted iterations
+normal_trading   [  75% ] 20 VUs  07m30.0s/10m0s
+
+running (07m31.0s), 20/20 VUs, 8340 complete and 0 interrupted iterations
+normal_trading   [  75% ] 20 VUs  07m31.0s/10m0s
+
+running (07m32.0s), 20/20 VUs, 8360 complete and 0 interrupted iterations
+normal_trading   [  75% ] 20 VUs  07m32.0s/10m0s
+
+running (07m33.0s), 20/20 VUs, 8380 complete and 0 interrupted iterations
+normal_trading   [  75% ] 20 VUs  07m33.0s/10m0s
+
+running (07m34.0s), 20/20 VUs, 8400 complete and 0 interrupted iterations
+normal_trading   [  76% ] 20 VUs  07m34.0s/10m0s
+
+running (07m35.0s), 20/20 VUs, 8420 complete and 0 interrupted iterations
+normal_trading   [  76% ] 20 VUs  07m35.0s/10m0s
+
+running (07m36.0s), 20/20 VUs, 8440 complete and 0 interrupted iterations
+normal_trading   [  76% ] 20 VUs  07m36.0s/10m0s
+
+running (07m37.0s), 20/20 VUs, 8460 complete and 0 interrupted iterations
+normal_trading   [  76% ] 20 VUs  07m37.0s/10m0s
+
+running (07m38.0s), 20/20 VUs, 8480 complete and 0 interrupted iterations
+normal_trading   [  76% ] 20 VUs  07m38.0s/10m0s
+
+running (07m39.0s), 20/20 VUs, 8500 complete and 0 interrupted iterations
+normal_trading   [  76% ] 20 VUs  07m39.0s/10m0s
+
+running (07m40.0s), 20/20 VUs, 8520 complete and 0 interrupted iterations
+normal_trading   [  77% ] 20 VUs  07m40.0s/10m0s
+
+running (07m41.0s), 20/20 VUs, 8540 complete and 0 interrupted iterations
+normal_trading   [  77% ] 20 VUs  07m41.0s/10m0s
+
+running (07m42.0s), 20/20 VUs, 8560 complete and 0 interrupted iterations
+normal_trading   [  77% ] 20 VUs  07m42.0s/10m0s
+
+running (07m43.0s), 20/20 VUs, 8580 complete and 0 interrupted iterations
+normal_trading   [  77% ] 20 VUs  07m43.0s/10m0s
+
+running (07m44.0s), 20/20 VUs, 8600 complete and 0 interrupted iterations
+normal_trading   [  77% ] 20 VUs  07m44.0s/10m0s
+
+running (07m45.0s), 20/20 VUs, 8600 complete and 0 interrupted iterations
+normal_trading   [  77% ] 20 VUs  07m45.0s/10m0s
+
+running (07m46.0s), 20/20 VUs, 8620 complete and 0 interrupted iterations
+normal_trading   [  78% ] 20 VUs  07m46.0s/10m0s
+
+running (07m47.0s), 20/20 VUs, 8640 complete and 0 interrupted iterations
+normal_trading   [  78% ] 20 VUs  07m47.0s/10m0s
+
+running (07m48.0s), 20/20 VUs, 8660 complete and 0 interrupted iterations
+normal_trading   [  78% ] 20 VUs  07m48.0s/10m0s
+
+running (07m49.0s), 20/20 VUs, 8680 complete and 0 interrupted iterations
+normal_trading   [  78% ] 20 VUs  07m49.0s/10m0s
+
+running (07m50.0s), 20/20 VUs, 8700 complete and 0 interrupted iterations
+normal_trading   [  78% ] 20 VUs  07m50.0s/10m0s
+
+running (07m51.0s), 20/20 VUs, 8720 complete and 0 interrupted iterations
+normal_trading   [  78% ] 20 VUs  07m51.0s/10m0s
+
+running (07m52.0s), 20/20 VUs, 8740 complete and 0 interrupted iterations
+normal_trading   [  79% ] 20 VUs  07m52.0s/10m0s
+
+running (07m53.0s), 20/20 VUs, 8760 complete and 0 interrupted iterations
+normal_trading   [  79% ] 20 VUs  07m53.0s/10m0s
+
+running (07m54.0s), 20/20 VUs, 8780 complete and 0 interrupted iterations
+normal_trading   [  79% ] 20 VUs  07m54.0s/10m0s
+
+running (07m55.0s), 20/20 VUs, 8800 complete and 0 interrupted iterations
+normal_trading   [  79% ] 20 VUs  07m55.0s/10m0s
+
+running (07m56.0s), 20/20 VUs, 8820 complete and 0 interrupted iterations
+normal_trading   [  79% ] 20 VUs  07m56.0s/10m0s
+
+running (07m57.0s), 20/20 VUs, 8840 complete and 0 interrupted iterations
+normal_trading   [  79% ] 20 VUs  07m57.0s/10m0s
+
+running (07m58.0s), 20/20 VUs, 8840 complete and 0 interrupted iterations
+normal_trading   [  80% ] 20 VUs  07m58.0s/10m0s
+
+running (07m59.0s), 20/20 VUs, 8860 complete and 0 interrupted iterations
+normal_trading   [  80% ] 20 VUs  07m59.0s/10m0s
+
+running (08m00.0s), 20/20 VUs, 8880 complete and 0 interrupted iterations
+normal_trading   [  80% ] 20 VUs  08m00.0s/10m0s
+
+running (08m01.0s), 20/20 VUs, 8900 complete and 0 interrupted iterations
+normal_trading   [  80% ] 20 VUs  08m01.0s/10m0s
+
+running (08m02.0s), 20/20 VUs, 8920 complete and 0 interrupted iterations
+normal_trading   [  80% ] 20 VUs  08m02.0s/10m0s
+
+running (08m03.0s), 20/20 VUs, 8940 complete and 0 interrupted iterations
+normal_trading   [  80% ] 20 VUs  08m03.0s/10m0s
+
+running (08m04.0s), 20/20 VUs, 8960 complete and 0 interrupted iterations
+normal_trading   [  81% ] 20 VUs  08m04.0s/10m0s
+
+running (08m05.0s), 20/20 VUs, 8980 complete and 0 interrupted iterations
+normal_trading   [  81% ] 20 VUs  08m05.0s/10m0s
+
+running (08m06.0s), 20/20 VUs, 9000 complete and 0 interrupted iterations
+normal_trading   [  81% ] 20 VUs  08m06.0s/10m0s
+
+running (08m07.0s), 20/20 VUs, 9020 complete and 0 interrupted iterations
+normal_trading   [  81% ] 20 VUs  08m07.0s/10m0s
+
+running (08m08.0s), 20/20 VUs, 9040 complete and 0 interrupted iterations
+normal_trading   [  81% ] 20 VUs  08m08.0s/10m0s
+
+running (08m09.0s), 20/20 VUs, 9060 complete and 0 interrupted iterations
+normal_trading   [  81% ] 20 VUs  08m09.0s/10m0s
+
+running (08m10.0s), 20/20 VUs, 9080 complete and 0 interrupted iterations
+normal_trading   [  82% ] 20 VUs  08m10.0s/10m0s
+
+running (08m11.0s), 20/20 VUs, 9100 complete and 0 interrupted iterations
+normal_trading   [  82% ] 20 VUs  08m11.0s/10m0s
+
+running (08m12.0s), 20/20 VUs, 9100 complete and 0 interrupted iterations
+normal_trading   [  82% ] 20 VUs  08m12.0s/10m0s
+
+running (08m13.0s), 20/20 VUs, 9120 complete and 0 interrupted iterations
+normal_trading   [  82% ] 20 VUs  08m13.0s/10m0s
+
+running (08m14.0s), 20/20 VUs, 9140 complete and 0 interrupted iterations
+normal_trading   [  82% ] 20 VUs  08m14.0s/10m0s
+
+running (08m15.0s), 20/20 VUs, 9160 complete and 0 interrupted iterations
+normal_trading   [  82% ] 20 VUs  08m15.0s/10m0s
+
+running (08m16.0s), 20/20 VUs, 9180 complete and 0 interrupted iterations
+normal_trading   [  83% ] 20 VUs  08m16.0s/10m0s
+
+running (08m17.0s), 20/20 VUs, 9200 complete and 0 interrupted iterations
+normal_trading   [  83% ] 20 VUs  08m17.0s/10m0s
+
+running (08m18.0s), 20/20 VUs, 9220 complete and 0 interrupted iterations
+normal_trading   [  83% ] 20 VUs  08m18.0s/10m0s
+
+running (08m19.0s), 20/20 VUs, 9240 complete and 0 interrupted iterations
+normal_trading   [  83% ] 20 VUs  08m19.0s/10m0s
+
+running (08m20.0s), 20/20 VUs, 9260 complete and 0 interrupted iterations
+normal_trading   [  83% ] 20 VUs  08m20.0s/10m0s
+
+running (08m21.0s), 20/20 VUs, 9280 complete and 0 interrupted iterations
+normal_trading   [  83% ] 20 VUs  08m21.0s/10m0s
+
+running (08m22.0s), 20/20 VUs, 9300 complete and 0 interrupted iterations
+normal_trading   [  84% ] 20 VUs  08m22.0s/10m0s
+
+running (08m23.0s), 20/20 VUs, 9320 complete and 0 interrupted iterations
+normal_trading   [  84% ] 20 VUs  08m23.0s/10m0s
+
+running (08m24.0s), 20/20 VUs, 9340 complete and 0 interrupted iterations
+normal_trading   [  84% ] 20 VUs  08m24.0s/10m0s
+
+running (08m25.0s), 20/20 VUs, 9360 complete and 0 interrupted iterations
+normal_trading   [  84% ] 20 VUs  08m25.0s/10m0s
+
+running (08m26.0s), 20/20 VUs, 9360 complete and 0 interrupted iterations
+normal_trading   [  84% ] 20 VUs  08m26.0s/10m0s
+
+running (08m27.0s), 20/20 VUs, 9380 complete and 0 interrupted iterations
+normal_trading   [  84% ] 20 VUs  08m27.0s/10m0s
+
+running (08m28.0s), 20/20 VUs, 9400 complete and 0 interrupted iterations
+normal_trading   [  85% ] 20 VUs  08m28.0s/10m0s
+
+running (08m29.0s), 20/20 VUs, 9420 complete and 0 interrupted iterations
+normal_trading   [  85% ] 20 VUs  08m29.0s/10m0s
+
+running (08m30.0s), 20/20 VUs, 9440 complete and 0 interrupted iterations
+normal_trading   [  85% ] 20 VUs  08m30.0s/10m0s
+
+running (08m31.0s), 20/20 VUs, 9460 complete and 0 interrupted iterations
+normal_trading   [  85% ] 20 VUs  08m31.0s/10m0s
+
+running (08m32.0s), 20/20 VUs, 9480 complete and 0 interrupted iterations
+normal_trading   [  85% ] 20 VUs  08m32.0s/10m0s
+
+running (08m33.0s), 20/20 VUs, 9500 complete and 0 interrupted iterations
+normal_trading   [  85% ] 20 VUs  08m33.0s/10m0s
+
+running (08m34.0s), 20/20 VUs, 9520 complete and 0 interrupted iterations
+normal_trading   [  86% ] 20 VUs  08m34.0s/10m0s
+
+running (08m35.0s), 20/20 VUs, 9540 complete and 0 interrupted iterations
+normal_trading   [  86% ] 20 VUs  08m35.0s/10m0s
+
+running (08m36.0s), 20/20 VUs, 9560 complete and 0 interrupted iterations
+normal_trading   [  86% ] 20 VUs  08m36.0s/10m0s
+
+running (08m37.0s), 20/20 VUs, 9580 complete and 0 interrupted iterations
+normal_trading   [  86% ] 20 VUs  08m37.0s/10m0s
+
+running (08m38.0s), 20/20 VUs, 9600 complete and 0 interrupted iterations
+normal_trading   [  86% ] 20 VUs  08m38.0s/10m0s
+
+running (08m39.0s), 20/20 VUs, 9600 complete and 0 interrupted iterations
+normal_trading   [  86% ] 20 VUs  08m39.0s/10m0s
+
+running (08m40.0s), 20/20 VUs, 9620 complete and 0 interrupted iterations
+normal_trading   [  87% ] 20 VUs  08m40.0s/10m0s
+
+running (08m41.0s), 20/20 VUs, 9640 complete and 0 interrupted iterations
+normal_trading   [  87% ] 20 VUs  08m41.0s/10m0s
+
+running (08m42.0s), 20/20 VUs, 9660 complete and 0 interrupted iterations
+normal_trading   [  87% ] 20 VUs  08m42.0s/10m0s
+
+running (08m43.0s), 20/20 VUs, 9680 complete and 0 interrupted iterations
+normal_trading   [  87% ] 20 VUs  08m43.0s/10m0s
+
+running (08m44.0s), 20/20 VUs, 9700 complete and 0 interrupted iterations
+normal_trading   [  87% ] 20 VUs  08m44.0s/10m0s
+
+running (08m45.0s), 20/20 VUs, 9720 complete and 0 interrupted iterations
+normal_trading   [  87% ] 20 VUs  08m45.0s/10m0s
+
+running (08m46.0s), 20/20 VUs, 9740 complete and 0 interrupted iterations
+normal_trading   [  88% ] 20 VUs  08m46.0s/10m0s
+
+running (08m47.0s), 20/20 VUs, 9760 complete and 0 interrupted iterations
+normal_trading   [  88% ] 20 VUs  08m47.0s/10m0s
+
+running (08m48.0s), 20/20 VUs, 9780 complete and 0 interrupted iterations
+normal_trading   [  88% ] 20 VUs  08m48.0s/10m0s
+
+running (08m49.0s), 20/20 VUs, 9800 complete and 0 interrupted iterations
+normal_trading   [  88% ] 20 VUs  08m49.0s/10m0s
+
+running (08m50.0s), 20/20 VUs, 9820 complete and 0 interrupted iterations
+normal_trading   [  88% ] 20 VUs  08m50.0s/10m0s
+
+running (08m51.0s), 20/20 VUs, 9840 complete and 0 interrupted iterations
+normal_trading   [  88% ] 20 VUs  08m51.0s/10m0s
+
+running (08m52.0s), 20/20 VUs, 9860 complete and 0 interrupted iterations
+normal_trading   [  89% ] 20 VUs  08m52.0s/10m0s
+
+running (08m53.0s), 20/20 VUs, 9860 complete and 0 interrupted iterations
+normal_trading   [  89% ] 20 VUs  08m53.0s/10m0s
+
+running (08m54.0s), 20/20 VUs, 9880 complete and 0 interrupted iterations
+normal_trading   [  89% ] 20 VUs  08m54.0s/10m0s
+
+running (08m55.0s), 20/20 VUs, 9900 complete and 0 interrupted iterations
+normal_trading   [  89% ] 20 VUs  08m55.0s/10m0s
+
+running (08m56.0s), 20/20 VUs, 9920 complete and 0 interrupted iterations
+normal_trading   [  89% ] 20 VUs  08m56.0s/10m0s
+
+running (08m57.0s), 20/20 VUs, 9940 complete and 0 interrupted iterations
+normal_trading   [  89% ] 20 VUs  08m57.0s/10m0s
+
+running (08m58.0s), 20/20 VUs, 9960 complete and 0 interrupted iterations
+normal_trading   [  90% ] 20 VUs  08m58.0s/10m0s
+
+running (08m59.0s), 20/20 VUs, 9980 complete and 0 interrupted iterations
+normal_trading   [  90% ] 20 VUs  08m59.0s/10m0s
+
+running (09m00.0s), 20/20 VUs, 10000 complete and 0 interrupted iterations
+normal_trading   [  90% ] 20 VUs  09m00.0s/10m0s
+
+running (09m01.0s), 20/20 VUs, 10020 complete and 0 interrupted iterations
+normal_trading   [  90% ] 20 VUs  09m01.0s/10m0s
+
+running (09m02.0s), 20/20 VUs, 10040 complete and 0 interrupted iterations
+normal_trading   [  90% ] 20 VUs  09m02.0s/10m0s
+
+running (09m03.0s), 20/20 VUs, 10060 complete and 0 interrupted iterations
+normal_trading   [  90% ] 20 VUs  09m03.0s/10m0s
+
+running (09m04.0s), 20/20 VUs, 10080 complete and 0 interrupted iterations
+normal_trading   [  91% ] 20 VUs  09m04.0s/10m0s
+
+running (09m05.0s), 20/20 VUs, 10100 complete and 0 interrupted iterations
+normal_trading   [  91% ] 20 VUs  09m05.0s/10m0s
+
+running (09m06.0s), 20/20 VUs, 10100 complete and 0 interrupted iterations
+normal_trading   [  91% ] 20 VUs  09m06.0s/10m0s
+
+running (09m07.0s), 20/20 VUs, 10120 complete and 0 interrupted iterations
+normal_trading   [  91% ] 20 VUs  09m07.0s/10m0s
+
+running (09m08.0s), 20/20 VUs, 10140 complete and 0 interrupted iterations
+normal_trading   [  91% ] 20 VUs  09m08.0s/10m0s
+
+running (09m09.0s), 20/20 VUs, 10160 complete and 0 interrupted iterations
+normal_trading   [  91% ] 20 VUs  09m09.0s/10m0s
+
+running (09m10.0s), 20/20 VUs, 10180 complete and 0 interrupted iterations
+normal_trading   [  92% ] 20 VUs  09m10.0s/10m0s
+
+running (09m11.0s), 20/20 VUs, 10200 complete and 0 interrupted iterations
+normal_trading   [  92% ] 20 VUs  09m11.0s/10m0s
+
+running (09m12.0s), 20/20 VUs, 10220 complete and 0 interrupted iterations
+normal_trading   [  92% ] 20 VUs  09m12.0s/10m0s
+
+running (09m13.0s), 20/20 VUs, 10240 complete and 0 interrupted iterations
+normal_trading   [  92% ] 20 VUs  09m13.0s/10m0s
+
+running (09m14.0s), 20/20 VUs, 10260 complete and 0 interrupted iterations
+normal_trading   [  92% ] 20 VUs  09m14.0s/10m0s
+
+running (09m15.0s), 20/20 VUs, 10280 complete and 0 interrupted iterations
+normal_trading   [  92% ] 20 VUs  09m15.0s/10m0s
+
+running (09m16.0s), 20/20 VUs, 10300 complete and 0 interrupted iterations
+normal_trading   [  93% ] 20 VUs  09m16.0s/10m0s
+
+running (09m17.0s), 20/20 VUs, 10320 complete and 0 interrupted iterations
+normal_trading   [  93% ] 20 VUs  09m17.0s/10m0s
+
+running (09m18.0s), 20/20 VUs, 10340 complete and 0 interrupted iterations
+normal_trading   [  93% ] 20 VUs  09m18.0s/10m0s
+
+running (09m19.0s), 20/20 VUs, 10360 complete and 0 interrupted iterations
+normal_trading   [  93% ] 20 VUs  09m19.0s/10m0s
+
+running (09m20.0s), 20/20 VUs, 10360 complete and 0 interrupted iterations
+normal_trading   [  93% ] 20 VUs  09m20.0s/10m0s
+
+running (09m21.0s), 20/20 VUs, 10380 complete and 0 interrupted iterations
+normal_trading   [  93% ] 20 VUs  09m21.0s/10m0s
+
+running (09m22.0s), 20/20 VUs, 10400 complete and 0 interrupted iterations
+normal_trading   [  94% ] 20 VUs  09m22.0s/10m0s
+
+running (09m23.0s), 20/20 VUs, 10420 complete and 0 interrupted iterations
+normal_trading   [  94% ] 20 VUs  09m23.0s/10m0s
+
+running (09m24.0s), 20/20 VUs, 10440 complete and 0 interrupted iterations
+normal_trading   [  94% ] 20 VUs  09m24.0s/10m0s
+
+running (09m25.0s), 20/20 VUs, 10460 complete and 0 interrupted iterations
+normal_trading   [  94% ] 20 VUs  09m25.0s/10m0s
+
+running (09m26.0s), 20/20 VUs, 10480 complete and 0 interrupted iterations
+normal_trading   [  94% ] 20 VUs  09m26.0s/10m0s
+
+running (09m27.0s), 20/20 VUs, 10500 complete and 0 interrupted iterations
+normal_trading   [  94% ] 20 VUs  09m27.0s/10m0s
+
+running (09m28.0s), 20/20 VUs, 10520 complete and 0 interrupted iterations
+normal_trading   [  95% ] 20 VUs  09m28.0s/10m0s
+
+running (09m29.0s), 20/20 VUs, 10540 complete and 0 interrupted iterations
+normal_trading   [  95% ] 20 VUs  09m29.0s/10m0s
+
+running (09m30.0s), 20/20 VUs, 10560 complete and 0 interrupted iterations
+normal_trading   [  95% ] 20 VUs  09m30.0s/10m0s
+
+running (09m31.0s), 20/20 VUs, 10580 complete and 0 interrupted iterations
+normal_trading   [  95% ] 20 VUs  09m31.0s/10m0s
+
+running (09m32.0s), 20/20 VUs, 10600 complete and 0 interrupted iterations
+normal_trading   [  95% ] 20 VUs  09m32.0s/10m0s
+
+running (09m33.0s), 20/20 VUs, 10620 complete and 0 interrupted iterations
+normal_trading   [  95% ] 20 VUs  09m33.0s/10m0s
+
+running (09m34.0s), 20/20 VUs, 10620 complete and 0 interrupted iterations
+normal_trading   [  96% ] 20 VUs  09m34.0s/10m0s
+
+running (09m35.0s), 20/20 VUs, 10640 complete and 0 interrupted iterations
+normal_trading   [  96% ] 20 VUs  09m35.0s/10m0s
+
+running (09m36.0s), 20/20 VUs, 10660 complete and 0 interrupted iterations
+normal_trading   [  96% ] 20 VUs  09m36.0s/10m0s
+
+running (09m37.0s), 20/20 VUs, 10680 complete and 0 interrupted iterations
+normal_trading   [  96% ] 20 VUs  09m37.0s/10m0s
+
+running (09m38.0s), 20/20 VUs, 10700 complete and 0 interrupted iterations
+normal_trading   [  96% ] 20 VUs  09m38.0s/10m0s
+
+running (09m39.0s), 20/20 VUs, 10720 complete and 0 interrupted iterations
+normal_trading   [  96% ] 20 VUs  09m39.0s/10m0s
+
+running (09m40.0s), 20/20 VUs, 10740 complete and 0 interrupted iterations
+normal_trading   [  97% ] 20 VUs  09m40.0s/10m0s
+
+running (09m41.0s), 20/20 VUs, 10760 complete and 0 interrupted iterations
+normal_trading   [  97% ] 20 VUs  09m41.0s/10m0s
+
+running (09m42.0s), 20/20 VUs, 10780 complete and 0 interrupted iterations
+normal_trading   [  97% ] 20 VUs  09m42.0s/10m0s
+
+running (09m43.0s), 20/20 VUs, 10800 complete and 0 interrupted iterations
+normal_trading   [  97% ] 20 VUs  09m43.0s/10m0s
+
+running (09m44.0s), 20/20 VUs, 10820 complete and 0 interrupted iterations
+normal_trading   [  97% ] 20 VUs  09m44.0s/10m0s
+
+running (09m45.0s), 20/20 VUs, 10840 complete and 0 interrupted iterations
+normal_trading   [  97% ] 20 VUs  09m45.0s/10m0s
+
+running (09m46.0s), 20/20 VUs, 10860 complete and 0 interrupted iterations
+normal_trading   [  98% ] 20 VUs  09m46.0s/10m0s
+
+running (09m47.0s), 20/20 VUs, 10860 complete and 0 interrupted iterations
+normal_trading   [  98% ] 20 VUs  09m47.0s/10m0s
+
+running (09m48.0s), 20/20 VUs, 10880 complete and 0 interrupted iterations
+normal_trading   [  98% ] 20 VUs  09m48.0s/10m0s
+
+running (09m49.0s), 20/20 VUs, 10900 complete and 0 interrupted iterations
+normal_trading   [  98% ] 20 VUs  09m49.0s/10m0s
+
+running (09m50.0s), 20/20 VUs, 10920 complete and 0 interrupted iterations
+normal_trading   [  98% ] 20 VUs  09m50.0s/10m0s
+
+running (09m51.0s), 20/20 VUs, 10940 complete and 0 interrupted iterations
+normal_trading   [  98% ] 20 VUs  09m51.0s/10m0s
+
+running (09m52.0s), 20/20 VUs, 10960 complete and 0 interrupted iterations
+normal_trading   [  99% ] 20 VUs  09m52.0s/10m0s
+
+running (09m53.0s), 20/20 VUs, 10980 complete and 0 interrupted iterations
+normal_trading   [  99% ] 20 VUs  09m53.0s/10m0s
+
+running (09m54.0s), 20/20 VUs, 11000 complete and 0 interrupted iterations
+normal_trading   [  99% ] 20 VUs  09m54.0s/10m0s
+
+running (09m55.0s), 20/20 VUs, 11020 complete and 0 interrupted iterations
+normal_trading   [  99% ] 20 VUs  09m55.0s/10m0s
+
+running (09m56.0s), 20/20 VUs, 11040 complete and 0 interrupted iterations
+normal_trading   [  99% ] 20 VUs  09m56.0s/10m0s
+
+running (09m57.0s), 20/20 VUs, 11060 complete and 0 interrupted iterations
+normal_trading   [  99% ] 20 VUs  09m57.0s/10m0s
+
+running (09m58.0s), 20/20 VUs, 11080 complete and 0 interrupted iterations
+normal_trading   [ 100% ] 20 VUs  09m58.0s/10m0s
+
+running (09m59.0s), 20/20 VUs, 11100 complete and 0 interrupted iterations
+normal_trading   [ 100% ] 20 VUs  09m59.0s/10m0s
+
+running (10m00.0s), 20/20 VUs, 11120 complete and 0 interrupted iterations
+normal_trading   [ 100% ] 20 VUs  10m00.0s/10m0s
+
+running (10m01.0s), 20/20 VUs, 11120 complete and 0 interrupted iterations
+normal_trading ↓ [ 100% ] 20 VUs  10m0s
+
+
+  █ THRESHOLDS 
+
+    http_req_duration
+    ✓ 'p(95)<500' p(95)=27.32ms
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.01%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 33420  55.602495/s
+    checks_succeeded...: 99.98% 33416 out of 33420
+    checks_failed......: 0.01%  4 out of 33420
+
+    ✗ catalogue 200
+      ↳  99% — ✓ 11136 / ✗ 4
+    ✓ product 200
+    ✓ order accepted
+
+    HTTP
+    http_req_duration..............: avg=26.17ms min=0s      med=26.03ms max=33.87ms p(90)=26.92ms p(95)=27.32ms
+      { expected_response:true }...: avg=26.17ms min=25.11ms med=26.03ms max=33.87ms p(90)=26.92ms p(95)=27.32ms
+    http_req_failed................: 0.01%  4 out of 33420
+    http_reqs......................: 33420  55.602495/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.07s   min=1.07s   med=1.07s   max=1.09s   p(90)=1.08s   p(95)=1.08s  
+    iterations.....................: 11140  18.534165/s
+    vus............................: 20     min=20         max=20
+    vus_max........................: 20     min=20         max=20
+
+    NETWORK
+    data_received..................: 28 MB  47 kB/s
+    data_sent......................: 4.3 MB 7.1 kB/s
+
+
+
+
+running (10m01.1s), 00/20 VUs, 11140 complete and 0 interrupted iterations
+normal_trading ✓ [ 100% ] 20 VUs  10m0s
+[stub ready on 127.0.0.1:8080]
+[k6 exited with 0]
