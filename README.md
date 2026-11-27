@@ -1,6 +1,6 @@
 # NEXORA — Omnichannel Retail Cloud Transformation
 
-**BIT4043 Cloud Architecturing · Final Assessment · Group 01-202609F0712 · City University Malaysia**
+**BIT4043 Cloud Architecturing · Final Assessment · Class Code 01-202609F0712 · City University Malaysia**
 
 NEXORA is a fictional Malaysian omnichannel retailer (120 stores, 3 distribution centres, ~2,000 orders/day) used as an enterprise cloud-migration case study. Its legacy estate — one data centre, a 15-year-old monolith, disconnected store/online inventory databases, manual disaster recovery — produces one hero problem: **the last unit gets sold twice**.
 
